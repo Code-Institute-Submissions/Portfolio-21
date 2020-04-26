@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Akronim&family=Montserrat:wght@300&family=Thasadith:wght@700&display=swap');
+ 
+ body {
+     font-family: 'Montserrat' , sans-serif;
+ }
+
+header {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+.uppercase {
+   text-transform: uppercase; 
+}
+
+
+/* Images */
+
+#hero-image {
+    background: url("../images/option37.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center;
+    min-height: 100vh;
+
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hero-zoom {
+   from {
+    transform: scale(1)
+}
+to {
+    transform: scale(1.1)
+} 
+}
+
+/* Heading */
+
+.name-heading {
+    text-align: center;
+    margin-top: 400px;
+    margin-right: 850px;
+    font-family: 'Akronim' , sans-serif;
+    font-size: 43px;
+    letter-spacing: 5px;
+    color: #f2bbdd;
+    text-shadow: 3px 3px 2px #000;
+}
+
+.job-title-heading {
+   text-align: center;
+   margin-bottom: 300px;
+   margin-right: 880px;
+   font-family: 'Thasadith' , sans-serif;
+   font-size: 32px;
+   letter-spacing: 5px;
+   color: #fff;
+   text-shadow: 2px 2px 2px #000;
+}
+
+
+
+/* Nav Bar */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-shadow: 1px 0px 3px #fff;
+}
+
+.navbar-brand {
+   font-size: 17px;
+   color: #7d0155 !important;
+}
+
+.navbar .nav-item {
+    padding: 0 5px;
+    margin: 10px;
+    color: #fff;
+}
+
+.navbar li a {
+    color: #7d0155 !important;
+}
+
+.navbar li a:hover {
+    transform: scale(0.8);
+}
