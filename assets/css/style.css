@@ -41,6 +41,43 @@ to {
 } 
 }
 
+.about-bg-image {
+    background: url("../images/option6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    min-height: 100vh;
+}
+
+.my-image  {
+    max-width: 100%;
+    margin-top: 80px;
+    width: 100%;
+    height: auto;
+    border-style: solid;
+    border-color: #ebb0c6;
+    border-width: 2px;
+}
+
+.portfolio-bg-image {
+    background: url("../images/option43.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 400px;
+}
+ 
+ .client1-image, .client2-image, .client3-image {
+     max-width: 100%;
+     width: 90%;
+     height: auto;
+     margin-left: 350px;
+     padding-right: 400px;
+ }
+
+
+
 /* Heading */
 
 .name-heading {
@@ -63,6 +100,15 @@ to {
    letter-spacing: 5px;
    color: #fff;
    text-shadow: 2px 2px 2px #000;
+}
+
+.about-heading  {
+    text-align: center;
+    padding-top: 120px;
+    padding-right: 50px;
+    margin: 100;
+    color: #7d0155;
+    text-shadow: 1px 1px 2px #fff;
 }
 
 
@@ -94,3 +140,34 @@ to {
 .navbar li a:hover {
     transform: scale(0.8);
 }
+
+
+
+/* About Section */
+
+.about-me-one  {
+   text-align: inherit;
+   padding-top: 80px;
+   padding-left: 15px;
+   color: #520238;
+   font-size: 20px; 
+}
+
+.about-me-two  {
+   text-align: inherit;
+   padding-top: 50px;
+   padding-left: 15px;
+   color: #520238;
+   font-size: 20px;
+}
+
+@media (max-width: 900px)  {
+.about-me-one  {
+    padding-top: 20px;
+    padding-left: 13px;
+}
+ .about-heading {
+    padding-top: 40px;
+    padding-right: 15px;
+}
+
