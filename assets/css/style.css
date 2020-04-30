@@ -15,6 +15,7 @@ header {
 }
 
 
+
 /* Images */
 
 #hero-image {
@@ -26,7 +27,7 @@ header {
     position: relative;
     text-align: center;
     min-height: 100vh;
-
+   
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -61,7 +62,7 @@ to {
 }
 
 .portfolio-bg-image {
-    background: url("../images/option43.jpg");
+    background: url("../images/option40.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -70,11 +71,21 @@ to {
  
  .client1-image, .client2-image, .client3-image {
      max-width: 100%;
-     width: 90%;
-     height: auto;
-     margin-left: 350px;
-     padding-right: 400px;
+     width: 95%;
+     height: 95%;
+     margin-left: 230px;
+     margin-bottom: 30px;
+     padding-right: 400px;  
  }
+
+ @media (max-width: 900px) {
+     .client1-image, .client2-image, .client3-image {
+     max-width: 50%;
+     width: 50%;
+     height: 50%;
+ }
+ }
+
 
 
 
@@ -107,9 +118,37 @@ to {
     padding-top: 120px;
     padding-right: 50px;
     margin: 100;
+    font-size: 40px;
     color: #7d0155;
     text-shadow: 1px 1px 2px #fff;
 }
+
+.portfolio-heading {
+    text-align: center;
+    padding-bottom: 46px;
+    padding-top: 69px;
+    font-size: 35px;
+    color: #520238;
+    text-shadow: 1px 1px 2px #fff;
+}
+
+
+
+
+/* Buttons */
+
+.carousel-control-prev, .carousel-control-next {
+   width: 40px;
+   height: 40px;
+   margin-top: 280px;
+   margin-left: 100px;
+   margin-right: 100px;
+   background-color: #520238;
+   opacity: .5;
+   border-radius: 50%;
+}
+
+
 
 
 
@@ -143,6 +182,8 @@ to {
 
 
 
+
+
 /* About Section */
 
 .about-me-one  {
@@ -170,4 +211,11 @@ to {
     padding-top: 40px;
     padding-right: 15px;
 }
+
+
+
+
+
+/* Portfolio Section */
+
 
