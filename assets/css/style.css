@@ -42,7 +42,7 @@ to {
 } 
 }
 
-.about-bg-image {
+#about {
     background: url("../images/option6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -66,7 +66,7 @@ to {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    min-height: 400px;
+    min-height: 100vh;
 }
  
  .client1-image, .client2-image, .client3-image {
@@ -78,7 +78,22 @@ to {
      padding-right: 40%;  
  }
 
- 
+ .tutorial-bg-image {
+     background: url("../images/option43.jpg");
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+ }
+
+ .contact-bg-image {
+     background: url("../images/option36.jpg");
+     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+ }
+
 
 
 
@@ -125,6 +140,12 @@ to {
     text-shadow: 1px 1px 2px #fff;
 }
 
+.contact-heading {
+    text-shadow: 0px 1px 0px #ebb0c6;
+    margin-top: 20%;
+    margin-left: 5%;
+}
+
 
 
 
@@ -140,6 +161,8 @@ to {
    opacity: .5;
    border-radius: 50%;
 }
+
+
 
 
 
@@ -196,7 +219,18 @@ to {
 }
 
 
+/* Contact Page
+.form-float {
+    float: right;
+    padding-left: 600px;
+}
 
+.booking-form {
+    margin-top: 10%;
+}
+    
+  
+  
 
 
 
