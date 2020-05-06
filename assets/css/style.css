@@ -18,17 +18,19 @@ header {
 
 /* Images */
 
-#hero-image {
+.hero-image {
     background: url("../images/option37.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-    text-align: center;
+    
     min-height: 100vh;
+    padding-top: 450px;
+    padding-left: 50px;
    
-    animation-name: hero-zoom;
+    /*animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
@@ -39,7 +41,7 @@ header {
 }
 to {
     transform: scale(1.1)
-} 
+} */
 }
 
 #about {
@@ -47,12 +49,12 @@ to {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    position: relative;
-    min-height: 100vh;
+    /*position: relative;*/
+    /*min-height: 100vh;*/
 }
 
 .my-image  {
-    max-width: 100%;
+    /*max-width: 100%;*/
     margin-top: 80px;
     width: 100%;
     height: auto;
@@ -100,9 +102,7 @@ to {
 /* Heading */
 
 .name-heading {
-    text-align: center;
-    margin-top: 400px;
-    margin-right: 860px;
+    /*text-align: center;*/
     font-family: 'Akronim' , sans-serif;
     font-size: 50px;
     letter-spacing: 5px;
@@ -111,14 +111,12 @@ to {
 }
 
 .job-title-heading {
-   text-align: center;
-   margin-bottom: 300px;
-   margin-right: 880px;
    font-family: 'Thasadith' , sans-serif;
-   font-size: 32px;
+   font-size: 1.5rem;
    letter-spacing: 5px;
    color: #fff;
    text-shadow: 2px 2px 2px #000;
+   padding-left: 45px;
 }
 
 .about-heading  {
@@ -218,6 +216,10 @@ to {
    font-size: 20px;
 }
 
+#contact {
+    padding-top: 100px;
+}
+
 
 /* Contact Page
 .form-float {
@@ -240,6 +242,9 @@ to {
 
 
 
+/* Media Queries */
+
+
 
 
 @media (max-width: 900px)  {
@@ -250,6 +255,13 @@ to {
  .about-heading {
     padding-top: 60px;
     padding-right: 15px;
+}
+.hero-image {
+    padding-left: 5px;
+}
+.job-title-heading {
+    padding-left: 5px;
+}
 }
 
 @media only screen and (max-width: 950px) {
