@@ -31,7 +31,7 @@ header {
     padding-left: 50px;
    
     /*animation-name: hero-zoom;
-    animation-duration: 5s;
+    animation-duration: 0.2s;
     animation-fill-mode: forwards;
 }
 
@@ -49,13 +49,15 @@ to {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    /*position: relative;*/
-    /*min-height: 100vh;*/
+    position: relative;
+    min-height: 100vh;
+    margin-bottom: -30px;
 }
 
 .my-image  {
-    /*max-width: 100%;*/
+    max-width: 100%;
     margin-top: 80px;
+    margin-bottom: 80px;
     width: 100%;
     height: auto;
     border-style: solid;
@@ -134,15 +136,14 @@ to {
     padding-bottom: 46px;
     padding-top: 69px;
     font-size: 35px;
-    color: #7d0155;
+    color: #fff;
     text-shadow: 1px 1px 2px #fff;
 }
 
-.contact-heading {
-    text-shadow: 0px 1px 0px #ebb0c6;
+/*.contact-heading {
     margin-top: 20%;
     margin-left: 5%;
-}
+}*/
 
 
 
@@ -216,19 +217,51 @@ to {
    font-size: 20px;
 }
 
+
+
+
+/* Contact Page*/
+/*
+.booking-form {
+    margin-top: 5%;
+    margin-right: 50px;
+   
+}
+
 #contact {
     padding-top: 100px;
+    padding-left: 900px;
+   
 }
 
+.fnemail {
+   width: 150%;
+}*/
 
-/* Contact Page
-.form-float {
-    float: right;
-    padding-left: 600px;
+.select-form {
+   /*margin-right: 10px;*/
+  
 }
 
-.booking-form {
-    margin-top: 10%;
+.c-container {
+   max-width: 1170px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 1em;
+   text-align: center;
+}
+
+.contact-info {
+  margin: 0 0 1rem 0;
+  text-align: center;
+  
+}
+
+.contact-info form {
+    text-align: center;
+    display: grid;
+    grid-gap: 2px;
+    width: 80%;
 }
     
   
@@ -247,7 +280,7 @@ to {
 
 
 
-@media (max-width: 900px)  {
+@media (min-width: 400px)  {
 .about-me-one  {
     padding-top: 60px;
     padding-left: 13px;
@@ -262,15 +295,14 @@ to {
 .job-title-heading {
     padding-left: 5px;
 }
+
 }
 
-@media only screen and (max-width: 950px) {
-    .client1-image, .client2-image, .client3-image {
-    margin-left: 20%;
-    margin-right: 1%;
-    margin-bottom: 50%;   
- }
- }
+
+
+
+
+
  
 
  /*@media only screen and (max-width: 700px) {

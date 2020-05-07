@@ -42,21 +42,14 @@
 </nav>
    </header>
 <!--/.Nav Bar-->
- 
 
-<!--Headings-->
-<!--<h1 class="name-heading uppercase">Vasileia Apostolou</h1>
-<h1 class="job-title-heading uppercase">Freelance Makeup Artist</h1>
-</header>
-<!--Headings-->
 
 
 
 <!--Home Page-->
 <section id="home" class="hero-image">
     <h1 class="name-heading uppercase">Vasileia Apostolou</h1>
-    <p class="job-title-heading uppercase">Freelance Makeup Artist</p>
-    
+    <h2 class="job-title-heading uppercase">Freelance Makeup Artist</h2>  
 </section>
 <!--/.Home Page-->
 
@@ -132,20 +125,29 @@
 
 <!--Contact Page-->
 <section id="contact" class="contact-bg-image">
-	<div class="container">
+	<div class="container c-container">
 		<div class="row">
-			<div class="col-12 col-md-6 col-lg-6">
-
+			<div class="col-12 col-lg-3 col-md-3 col-sm-3">
+            <div class="contact-info">
+                <h2 class="contact-heading">Book Your Appointment</h2>
 				<form>
-					<input type="text" name="fname" placeholder="Full Name" required><br>
-					<input type="email" name="email" placeholder="Email Address" required><br>
-					<textarea name="message" cols="30" rows="10"></textarea> <br>
-					<button>Submit</button>
+					<input class="booking-form fnemail" type="text" name="fname" placeholder="Full Name" required><br>
+					<input class="booking-form fnemail" type="email" name="email" placeholder="Email Address" required><br>
+					<textarea class="booking-form fnemail" name="message"  placeholder="Message" cols="30" rows="10"></textarea> <br>
+
+                 <label class="booking-form select-form" for="makeup-service">Makeup Service: </label>
+                 <select class="booking-form select-form" name="makeup-service" id="makeup-service" value="makeup-service">
+                 <option value="natural-makeup">Natural Makeup</option>
+                 <option value="full-face-makeup">Full Face Makeup</option>
+                 <option value="bold-makeup">Bold Makeup</option>
+                 </select>
+                    <br>
+					<button class="booking-form btn-light btn-outline-dark">Book Now!</button>
 
 
 				</form>
 
-
+</div>
 			</div>
 		</div>
 	</div>
