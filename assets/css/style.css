@@ -136,14 +136,15 @@ to {
     padding-bottom: 46px;
     padding-top: 69px;
     font-size: 35px;
-    color: #fff;
+    color:#7d0155;
     text-shadow: 1px 1px 2px #fff;
 }
 
-/*.contact-heading {
+.contact-heading {
     margin-top: 20%;
     margin-left: 5%;
-}*/
+    color: #7d0155;
+}
 
 
 
@@ -159,6 +160,10 @@ to {
    background-color: #520238;
    opacity: .5;
    border-radius: 50%;
+}
+
+.book-now-btn:hover {
+    background-color: #99006a !important ;
 }
 
 
@@ -221,25 +226,24 @@ to {
 
 
 /* Contact Page*/
-/*
-.booking-form {
-    margin-top: 5%;
-    margin-right: 50px;
-   
+
+.book-now-btn {
+    margin-top: 10%;
+    margin-right: 20px;
+    background-color: #6e014b;
+    color: #fff;
+    
 }
 
-#contact {
-    padding-top: 100px;
-    padding-left: 900px;
-   
-}
+ .fnemail {
+   width: 100%;
+   margin-top: 5%;
 
-.fnemail {
-   width: 150%;
-}*/
+}
 
 .select-form {
-   /*margin-right: 10px;*/
+   margin-right: 10px;
+   margin-top: 10%;
   
 }
 
@@ -254,17 +258,27 @@ to {
 .contact-info {
   margin: 0 0 1rem 0;
   text-align: center;
+  position: relative;
   
 }
 
 .contact-info form {
     text-align: center;
-    display: grid;
     grid-gap: 2px;
-    width: 80%;
+    padding: 5%;
+
 }
-    
-  
+
+.service-options {
+    border: solid 1px;
+
+}.contact-heading {
+    margin-top: 20%;
+    margin-left: 5%;
+    color: #7d0155;
+ 
+}
+  }
   
 
 
@@ -279,13 +293,16 @@ to {
 
 
 
-
-@media (min-width: 400px)  {
-.about-me-one  {
-    padding-top: 60px;
-    padding-left: 13px;
+@media only screen and (min-width: 360px) {
+.about-me-one {
+padding-top: 60px;
+ padding-left: 13px;
 }
- .about-heading {
+.about-me-two {
+padding-top: 60px;
+ padding-left: 13px;
+}
+.about-heading {
     padding-top: 60px;
     padding-right: 15px;
 }
@@ -296,7 +313,64 @@ to {
     padding-left: 5px;
 }
 
+/*Contact*/
+.book-now-btn {
+    margin-top: 10%;
+    margin-right: 20px;
+    background-color: #6e014b;
+    color:green;
+    
 }
+
+ .fnemail {
+   width: 50%;
+   margin-top: 5%;
+   margin-left: 600px;
+
+}
+
+.select-form {
+   margin-right: 10px;
+   margin-top: 10%;
+  
+}
+
+.c-container {
+  
+   margin-left: 600px;
+   padding: 1em;
+   text-align: center;
+}
+
+.contact-info {
+  margin-left: 600px;
+  text-align: center;
+
+  
+}
+
+.contact-info form {
+    text-align: center;
+    grid-gap: 2px;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
