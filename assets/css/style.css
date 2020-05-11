@@ -336,11 +336,11 @@ margin-bottom: 60px;
 /* Tutorial Section */
   
 
-  .container {
+  /*.container {
     width: 100%;
     height: auto;
 
-}
+}*/
 
 .iframe-container { 
 display: flex;
@@ -348,16 +348,28 @@ display: flex;
 }
 
 .vid-tutorials {
-  padding-top: 70px;
-  
-  
+ padding-top: 56.25%;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
 
-
+}
 
 .spacing-style {
-   margin-left: 150px;
+   margin-left: 90px;
+ 
 }
 
 .tutorial-headings {
@@ -432,7 +444,7 @@ padding-top: 60px;
  }
 }
 
-/*@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1200px) {
 .spacing-style {
    margin-left: 10px;
 }
@@ -443,9 +455,15 @@ padding-top: 60px;
 }
 .vid-tutorials {
   margin-left: 25%;
+  text-align: center;
   
 }
-
+.responsive-iframe {
+position: absolute;
+    
+    width: 40%;
+    height: 10%;
+}
 
 
 }
