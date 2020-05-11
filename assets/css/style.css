@@ -19,7 +19,7 @@ header {
 /* Images */
 
 .hero-image {
-    background: url("../images/option37.jpg");
+    background: url("assets/images/option37.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,7 +45,7 @@ to {
 }
 
 #about {
-    background: url("../images/option6.jpg");
+    background: url("assets/images/option6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -66,7 +66,7 @@ to {
 }
 
 .portfolio-bg-image {
-    background: url("../images/tutorials.jpg");
+    background: url("assets/images/port3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -83,7 +83,7 @@ to {
  }
 
  .tutorial-bg-image {
-     background: url("../images/tutorials1.jpg");
+     background: url("assets/images/option41.jpg");
      background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -91,7 +91,7 @@ to {
  }
 
  .contact-bg-image {
-     background: url("../images/option36.jpg");
+     background: url("assets/images/option36.jpg");
      background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -336,47 +336,26 @@ margin-bottom: 60px;
 /* Tutorial Section */
   
 
-  /*.container {
-    width: 100%;
-    height: auto;
-
-}*/
-
-.iframe-container { 
-display: flex;
-  flex-wrap: wrap;
-}
-
-.vid-tutorials {
- padding-top: 56.25%;
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.responsive-iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 50%;
-    height: 50%;
-
-}
-
-.spacing-style {
-   margin-left: 90px;
+/*.spacing-style {
+   margin-left: 10%;
  
-}
+}*/
 
 .tutorial-headings {
     text-align: center;
     color: #520238;
     padding-top: 2px;
+  text-shadow: 0px 1px 1px #fff;
 }
+
+.responsive-iframe {
+    width: 90%;
+    height: 280px;
+    margin-top: 13%;
+
+}
+
+
 
 
 
@@ -444,30 +423,11 @@ padding-top: 60px;
  }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 767px) {
 .spacing-style {
-   margin-left: 10px;
+    margin-left: 10%;
 }
-.iframe-container { 
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
 }
-.vid-tutorials {
-  margin-left: 25%;
-  text-align: center;
-  
-}
-.responsive-iframe {
-position: absolute;
-    
-    width: 40%;
-    height: 10%;
-}
-
-
-}
-
 
 
 
