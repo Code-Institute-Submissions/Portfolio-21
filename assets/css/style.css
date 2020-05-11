@@ -19,7 +19,7 @@ header {
 /* Images */
 
 .hero-image {
-    background: url("/Portfolio/assets/images/option37.jpg");
+    background: url("../assets/images/option37.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,7 +45,7 @@ to {
 }
 
 #about {
-    background: url("/Portfolio/assets/images/option6.jpg");
+    background: url("../assets/images/option6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -66,7 +66,7 @@ to {
 }
 
 .portfolio-bg-image {
-    background: url("/Portfolio/assets/images/port3.jpg");
+    background: url("../assets/images/port3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -83,7 +83,7 @@ to {
  }
 
  .tutorial-bg-image {
-     background: url("/Portfolio/assets/images/option41.jpg");
+     background: url("../assets/images/option41.jpg");
      background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -91,7 +91,7 @@ to {
  }
 
  .contact-bg-image {
-     background: url("/Portfolio/assets/images/option36.jpg");
+     background: url("../assets/images/option36.jpg");
      background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
