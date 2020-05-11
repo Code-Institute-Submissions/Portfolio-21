@@ -66,7 +66,7 @@ to {
 }
 
 .portfolio-bg-image {
-    background: url("../images/option44.jpg");
+    background: url("../images/tutorials.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -83,7 +83,7 @@ to {
  }
 
  .tutorial-bg-image {
-     background: url("../images/option43.jpg");
+     background: url("../images/tutorials1.jpg");
      background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -95,7 +95,7 @@ to {
      background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    max-height: 760px;
+    max-height: 745px;
  }
 
 
@@ -230,10 +230,10 @@ to {
 footer {
    text-align: center;
    margin-top: 10px;
-   padding-top: 10px;
+   padding-top: 2px;
+   height: 10px;
   
 }
-
 
 .inline-block {
      display: inline-block;
@@ -246,10 +246,10 @@ footer {
 }
 
 .social-media li a i {
-    width: 30px;
-    height: 30px;
-    padding-top: 30px;
-    line-height: 12px;
+    width: 40px;
+    height: 40px;
+    padding-top: 25px;
+   
     font-size: 30px;
     text-align: center;
     color: #6e014b;
@@ -265,13 +265,15 @@ footer {
 
 
 
+
 /* Contact Page*/
 
 .book-now-btn {
-    margin-top: 5%;
+    margin-top: 4%;
     margin-right: 20px;
     background-color: #6e014b;
     color: #fff;
+    margin-bottom:0;
     
 }
 
@@ -286,13 +288,12 @@ footer {
 .select-form {
    margin-right: 10px;
    margin-top: 3%;
-   padding-top: 5px;
+   padding-top: 10px;
+   text-shadow: 1px 1px 1px #fff;
 }
 
 .c-container {
-   max-width: 1170px;
-  
-   padding: 1em;
+  padding-top: 2px;
    text-align: center;
 }
 
@@ -301,7 +302,7 @@ footer {
   position: relative;
   margin-left: 20px;
  
- padding-bottom: 70px;
+margin-bottom: 60px;
  padding-top:10px;
  
 }
@@ -310,9 +311,7 @@ footer {
     text-align: center;
     grid-gap: 2px;
     padding-left: 100px;
-   margin-top: 100px;
-  
-
+   margin-top: 10px;
 }
 
 .request-box {
@@ -323,17 +322,71 @@ footer {
     border: solid 1px;
     }
 
-}.contact-heading {
+.contact-heading {
     margin-top: 10%;
     margin-left: 5%;
     letter-spacing: 2px;
     color: #520238;
- 
-}
-  }
+    text-shadow: 1px 1px 1px #fff;
+ }
+
+
+
+
+/* Tutorial Section */
   
 
+  .container {
+    width: 100%;
+    height: auto;
+
+}
+
+.iframe-container { 
+display: flex;
+  flex-wrap: wrap;
+}
+
+.vid-tutorials {
+  padding-top: 70px;
+  
+  
+}
+
+
+
+
+.spacing-style {
+   margin-left: 150px;
+}
+
+.tutorial-headings {
+    text-align: center;
+    color: #520238;
+    padding-top: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
  
+
+
+
+
+
+
 
 
 
@@ -366,63 +419,35 @@ padding-top: 60px;
 }
 }
 
-@media only screen and (min-width: 260px) {
-/*.contact-info form {
-    text-align: center;
-    grid-gap: 2px;
-    padding-left: 100px;
-  padding-bottom: 80px;
-
-}
-.c-container {
-   max-width: 1170px;
-  padding-top: 80px;
-   padding: 1em;
-   text-align: center;
-}
-.contact-bg-image {
-    max-height: 730px;
+@media only screen and (max-width: 450px) {
+.contact-heading {
+    margin-top: 20px;
+    margin-left: 5%;
+    letter-spacing: 2px;
+    color: #520238;
+ }
+ .contact-info {
+     margin-right: 20px;
+  padding-top: 10px;
  }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
- /*@media only screen and (max-width: 700px) {
-    .portfolio-heading {
-    padding-bottom: 5%;
-    padding-top: 28%;
-    
+/*@media only screen and (max-width: 1200px) {
+.spacing-style {
+   margin-left: 10px;
 }
- }*/
-
-
-/*@media only screen and (max-width: 700px) {
- .carousel-control-prev, .carousel-control-next {
-   margin-top: 5%;
-   margin-left: 5%;
-   margin-right: 5%;
+.iframe-container { 
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
 }
+.vid-tutorials {
+  margin-left: 25%;
+  
+}
+
+
+
 }
 
 
