@@ -19,7 +19,7 @@ header {
 /* Images */
 
 .hero-image {
-    background: url("Portfolio/assets/images/option37.jpg");
+    background: url("../images/option37.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
