@@ -66,7 +66,7 @@ to {
 }
 
 .portfolio-bg-image {
-    background: url("../images/port3.jpg");
+    background: url("../images/port234.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -128,7 +128,7 @@ to {
     margin: 100;
     font-size: 40px;
     color: #7d0155;
-    text-shadow: 1px 1px 2px #fff;
+    text-shadow: 2px 1px 3px #fff;
 }
 
 .portfolio-heading {
@@ -137,13 +137,14 @@ to {
     padding-top: 69px;
     font-size: 35px;
     color:#7d0155;
-    text-shadow: 1px 1px 2px #fff;
+    text-shadow: 2px 1px 3px #fff;
 }
 
 .contact-heading {
     margin-top: 20%;
     margin-left: 5%;
     color: #7d0155;
+    text-shadow: 2px 1px 3px #fff;
 }
 
 
@@ -486,6 +487,8 @@ padding-top: 40px;
    width: 2%;
    height: 30px;
    margin-top: 240px;
+   margin-left: 2px;
+   margin-right: 2px;
   
 }
 .client1-image, .client2-image, .client3-image {
@@ -499,12 +502,26 @@ padding-top: 40px;
     padding-top: 150px;
     font-size: 35px;
  }
+ .vid-tutorials iframe {
+    width: 70%;
+    height: 280px;
+    margin-top: 6%;
+    margin-right: 20px;
+}
+.tutorial-headings {
+    text-align: center;
+    margin-right: 50px;
+}
+#sunrise-look {
+    margin-bottom: 40px;
+}
+ }
 
 
 
 
 
- @media only screen and (min-width: 501px) and (max-width: 767px) {
+ @media only screen and (min-width: 450px) and (max-width: 766px) {
 .about-heading {
    padding-top: 10px;
     padding-bottom: 60px;
@@ -522,25 +539,133 @@ padding-top: 40px;
  font-size: 19px;
 }
 .carousel-control-prev, .carousel-control-next {
-   width: 2%;
+   width: 6%;
    height: 30px;
-   margin-top: 240px;
- padding-left: 200px;
-  
+ margin-left: 10px;
+ margin-right: 10px;
+ margin-top: 150px;
 }
 .client1-image, .client2-image, .client3-image {
      width: 100%;
-     height: 400px;
+     height: 310px;
      margin-left: 20%;
-     margin-top: 50px;
+     margin-bottom: 500px;
+     
  }
  .portfolio-heading {
-    padding-bottom: 46px;
-    padding-top: 150px;
+    margin-bottom: 50px;
+    margin-top: 50px;
     font-size: 35px;
+ }
+ .portfolio-bg-image {
+     max-height: 300px;
  }
  }
 
+
+
+
+
+ @media only screen and (min-width: 450px) and (max-width: 583px) {
+    .carousel-control-prev, .carousel-control-next {
+     height: 30px;
+     margin-top: 170px;
+     }
+     .client1-image, .client2-image, .client3-image {
+     width: 100%;
+     height: 70%;
+      margin-top: 60px;
+ }
+ .portfolio-heading {
+    margin-top: 80px;
+ }
+ }
+
+
+ @media only screen and (min-width: 335px) and (max-width: 449px) {
+    .carousel-control-prev, .carousel-control-next {
+     width: 2%;
+     height: 30px;
+     margin-top: 140px;
+     margin-left: 10%;
+     margin-right: 10%;
+     }
+     .client1-image, .client2-image, .client3-image {
+     width: 100%;
+     height: 70%;
+      margin-top: 70px;
+ }
+ .portfolio-heading {
+    margin-top: 80px;
+ }
+ }
+
+
+
+
+ @media only screen and (max-width: 334px){
+    .carousel-control-prev, .carousel-control-next {
+     width: 2%;
+     height: 30px;
+     margin-top: 280px;
+     margin-left: 10%;
+     margin-right: 10%;
+     }
+     .client1-image, .client2-image, .client3-image {
+     width: 100%;
+     height: 70%;
+      margin-top: 100px;
+ }
+ .portfolio-heading {
+    margin-top: 80px;
+ }
+ }
+
+
+ @media only screen and (min-width: 767px) and (max-width: 1025px){
+ .vid-tutorials iframe {
+    width: 70%;
+    height: 280px;
+    margin-top: 6%;
+    margin-right: 20px;
+}
+.tutorial-headings {
+    text-align: center;
+    margin-right: 50px;
+}
+#sunrise-look {
+    margin-bottom: 40px;
+}
+ 
+ }
+
+
+ @media only screen and (max-width: 575px){
+    .vid-tutorials iframe {
+    width: 90%;
+    height: 200px;
+    margin-top: 6%;
+    margin-right: 20px;
+   display: flex;
+  flex-direction: column;
+}
+   .tutorial-headings {
+    text-align: center;
+    margin-right: 50px;
+}
+    #sunrise-look {
+    margin-bottom: 40px;
+}
+ }
+
+
+
+ 
+
+
+
+
+ 
 
 
 
