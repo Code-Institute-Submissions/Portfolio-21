@@ -311,7 +311,7 @@ margin-bottom: 60px;
 .contact-info form {
     text-align: center;
     grid-gap: 2px;
-    padding-left: 100px;
+    
    margin-top: 10px;
 }
 
@@ -325,8 +325,7 @@ margin-bottom: 60px;
 
 .contact-heading {
     margin-top: 10%;
-    margin-left: 5%;
-    letter-spacing: 2px;
+   margin-right: 7%;
     color: #520238;
     text-shadow: 1px 1px 1px #fff;
  }
@@ -335,25 +334,25 @@ margin-bottom: 60px;
 
 
 /* Tutorial Section */
-  
-
-/*.spacing-style {
-   margin-left: 10%;
- 
-}*/
 
 .tutorial-headings {
     text-align: center;
     color: #520238;
     padding-top: 2px;
+    padding-left: 12%;
   text-shadow: 0px 1px 1px #fff;
 }
 
 .responsive-iframe {
-    width: 90%;
+    width: 100%;
     height: 280px;
     margin-top: 13%;
+    margin-right: 15%;
+    border: 6px double #ac0878
+}
 
+.vid-tutorials {
+    padding-right: 20%;
 }
 
 
@@ -433,6 +432,8 @@ padding-top: 60px;
 }
 }
 
+
+
 @media only screen and (min-width: 767px) {
    .spacing-style {
     margin-left: 10%;
@@ -505,15 +506,19 @@ padding-top: 40px;
  .vid-tutorials iframe {
     width: 70%;
     height: 280px;
-    margin-top: 6%;
+    margin-top: 10%;
     margin-right: 20px;
+   
 }
 .tutorial-headings {
     text-align: center;
-    margin-right: 50px;
+    margin-right: 30px;
 }
 #sunrise-look {
     margin-bottom: 40px;
+}
+.tutorial1 {
+    margin-top: 60px;
 }
  }
 
@@ -622,9 +627,9 @@ padding-top: 40px;
  }
 
 
- @media only screen and (min-width: 767px) and (max-width: 1025px){
- .vid-tutorials iframe {
-    width: 70%;
+ @media only screen and (min-width: 767px) and (max-width: 1025px) {
+.vid-tutorials iframe {
+    width: 100%;
     height: 280px;
     margin-top: 6%;
     margin-right: 20px;
@@ -636,16 +641,14 @@ padding-top: 40px;
 #sunrise-look {
     margin-bottom: 40px;
 }
- 
  }
 
 
  @media only screen and (max-width: 575px){
     .vid-tutorials iframe {
-    width: 90%;
+    width: 100%;
     height: 200px;
     margin-top: 6%;
-    margin-right: 20px;
    display: flex;
   flex-direction: column;
 }
@@ -656,6 +659,14 @@ padding-top: 40px;
     #sunrise-look {
     margin-bottom: 40px;
 }
+ }
+
+
+
+ @media only screen and (max-width: 415px){
+    .contact-bg-image {
+    max-height: 700px;
+ }
  }
 
 

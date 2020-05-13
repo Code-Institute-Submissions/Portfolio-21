@@ -90,13 +90,13 @@
 					<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 						<div class="carousel-inner">
 							<div class="col-12 col-lg-12 col-md-12 col-sm-12 carousel-item active">
-								<img class="client1-image" src="assets/images/client1.jpg" class="d-block w-100" alt="...">
+								<img class="client1-image d-block w-100" src="assets/images/client1.jpg"  alt="...">
     </div>
 								<div class="col-12 col-lg-12 col-md-12 col-sm-12 carousel-item">
-									<img class="client2-image" src="assets/images/client2.jpg" class="d-block w-100" alt="...">
+									<img class="client2-image d-block w-100" src="assets/images/client2.jpg" alt="...">
     </div>
 									<div class="col-12 col-lg-12 col-md-12 col-sm-12 carousel-item">
-										<img class="client3-image" src="assets/images/client3.jpg" class="d-block w-100" alt="...">
+										<img class="client3-image d-block w-100" src="assets/images/client3.jpg" alt="...">
     </div>
 									</div>
 									<a class="col-12 carousel-control-prev" href="#carouselExampleControls"
@@ -125,7 +125,7 @@
 		<div class="row">
 			<div class="col col-lg-6 col-md-12 col-sm-12 col-xs-12">
 				<div class="vid-tutorials">
-					<iframe class="responsive-iframe spacing-style" src="https://www.youtube.com/embed/_PgrGhq_gKg" frameborder="0"
+					<iframe class="responsive-iframe spacing-style" id="tutorial1" src="https://www.youtube.com/embed/_PgrGhq_gKg"
 						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 						allowfullscreen></iframe>
 					<h3 class="tutorial-headings">🦋 Butterfly Eye Look 🦋</h3>
@@ -134,7 +134,7 @@
 			<div class="col col-lg-6 col-md-12 col-sm-12 col-xs-12">
 				<div class="vid-tutorials">
 					<iframe class="responsive-iframe spacing-style height-style"
-						src="https://www.youtube.com/embed/1dUbItaQAbk" frameborder="0"
+						src="https://www.youtube.com/embed/1dUbItaQAbk"
 						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 						allowfullscreen></iframe>
 					<h3 class="tutorial-headings">✨Black Glittery Eye Look ✨</h3>
@@ -144,7 +144,7 @@
 		<div class="row">
 			<div class="col col-lg-6 col-md-12 col-sm-12 col-xs-12">
 				<div class="vid-tutorials">
-					<iframe class="responsive-iframe spacing-style" src="https://www.youtube.com/embed/Fa6ZFcwh7ek" frameborder="0"
+					<iframe class="responsive-iframe spacing-style" src="https://www.youtube.com/embed/Fa6ZFcwh7ek"
 						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 						allowfullscreen></iframe>
 					<h3 class="tutorial-headings">🌤Sunrise Makeup Look 🌤</h3>
@@ -152,8 +152,8 @@
 			</div>
 			<div class="col col-lg-6 col-md-12 col-sm-12 col-xs-12">
 				<div class="vid-tutorials">
-					<iframe class="responsive-iframe spacing-style height-style" 
-						src="https://www.youtube.com/embed/CudE8J3VWno" frameborder="0"
+					<iframe class="responsive-iframe spacing-style height-style"
+						src="https://www.youtube.com/embed/CudE8J3VWno"
 						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 						allowfullscreen></iframe>
 					<h3 class="tutorial-headings" id="sunrise-look">🌱Green Makeup Look 🌱</h3>
@@ -161,9 +161,7 @@
 			</div>
 		</div>
 	</div>
-	</div>
-	</div>
-	</div>
+	
 </section>
 <!--/.Tutorials Page-->
 
@@ -177,19 +175,22 @@
 			<div class="col col-lg-6 col-md-6 col-sm-12 ml-auto py-5 ">
 				<div class="contact-info">
 					<h2 class="contact-heading booking-form uppercase">Book Your Appointment</h2>
-					<form">
-						<input class="booking-form fnemail" type="text" name="fname" placeholder="Full Name" required><br>
-                        <input class="booking-form fnemail" type="text" name="fname" placeholder="Phone Number" required><br>
-						<input class="booking-form fnemail" type="email" name="email" placeholder="Email Address" required><br>
+					<form>
+						<input class="booking-form fnemail" type="text" name="fname" placeholder="Full Name" required>
+						<br>
+						<input class="booking-form fnemail" type="text" name="fnumber" placeholder="Phone Number" required>
+						<br>
+						<input class="booking-form fnemail" type="email" name="email" placeholder="Email Address" required>
+						<br>
 						<textarea class="booking-form fnemail" name="message"  placeholder="Message" cols="30" rows="8"></textarea>
 						<br>
-                         <!--<div class="request-box">
+						<!--<div class="request-box">
 						<label for="request">Request For A Call</label>
 						<input type="checkbox" name="remember" value="remember"> <br> 
                         </div>. -->
-                  
+
 						<label class="booking-form select-form" for="makeup-service"><strong>Makeup Service:</strong></label>
-						<select class="booking-form select-form service-options" name="makeup-service" id="makeup-service" value="makeup-service">
+						<select class="booking-form select-form service-options" name="makeup-service" id="makeup-service">
                  <option value="natural-makeup">Natural Makeup</option>
                  <option value="full-face-makeup">Full Face Makeup</option>
                  <option value="bold-makeup">Bold Makeup</option>
@@ -198,13 +199,13 @@
 						<button class="book-now-btn btn-light btn-outline-dark hvr-glow hvr-bounce-in">Book Now!</button>
 
 
-						</form>
+					</form>
 
 				</div>
 			</div>
 		</div>
 	</div>
-</section>	
+</section>
 <!--/.Contact Page-->
 
 <!--Footer-->

@@ -50,8 +50,6 @@ In the Home section, I wanted something clean and simple, so I included my name 
 ## Features 
 
 This website has a fixed navigation bar containing five menu items. In a tablet and mobile view the navigation bar collapses into a hamburger menu. Bootstrap alongside its Javascript/JQuery plugins was used to achieve this.
-
-This site uses Scrollspy.
   
 ## Features Left To Implement
 
@@ -65,11 +63,11 @@ In the future, I would like to add more pictures of clients that I've worked w
 
 HTML5 was used in this project to keep up with the latest industry standards.
 
-2. [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+1. [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
 CSS was used for styling the content on the website
 
-3. [Bootstrap](https://getbootstrap.com/)
+1. [Bootstrap](https://getbootstrap.com/)
 
 Bootstrap classes were used to build the navigation bar and to make the website responsive.
 
@@ -80,7 +78,7 @@ Bootstrap classes were used to build the navigation bar and to make the website 
 
 Git was used in this project for version control.
 
-2. [Gitpod](https://www.gitpod.io/)
+1. [Gitpod](https://www.gitpod.io/)
 
 Gitpod was used to develop this project.
   
