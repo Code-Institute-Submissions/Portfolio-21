@@ -73,6 +73,9 @@ The client user story achieved the intended outcome of providing them with a sho
 I have noticed that on Safari and Internet Explorer there was a gap between the Home and About page. To fix this...
 The site was also tested on multiple devices such as MacBook Pro, Huawei Mediapad T5, Iphone 8 Plus and Huawei P30 Pro to ensure it would be correctly displayed across mobile devices.
 
+### Validators 
+The site's HTML code has been tested in [W3 Validator](https://validator.w3.org/) and CSS code in [Jigsaw Validator](https://jigsaw.w3.org/css-validator/).
+
 ### Navbar
 This website has a fixed navigation bar containing five menu items. In a tablet and mobile view the navigation bar collapses into a hamburger menu. Bootstrap alongside its Javascript/JQuery plugins was used to achieve this. The Navbar item that it's being hovered will become a bit bigger and darker.
 
