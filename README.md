@@ -1,5 +1,5 @@
 # Vasileia's Portfolio
-Milestone Project : User-Centric Frontend Development - Code Institute !!
+Milestone Project : User-Centric Frontend Development - Code Institute 
 
 I am a Full Stack Web Developer and a Makeup Artist and this is my portfolio website, created to attract clients. My portfolio includes a little bit about myself and my experience, it highlights my work and achievements by including before and after pictures of clients and makeup tutorials so that anyone who visits my website can learn something, as well as a form where clients can book their next appointment! 
 
