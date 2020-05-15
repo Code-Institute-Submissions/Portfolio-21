@@ -38,7 +38,7 @@ For clients, my goal was to provide a brief overview of myself as a Makeup Artis
 
 ### Structure 
 
-In the Home section, there's a background picture my name and job title. 
+In the Home section, there's a background picture, my name and job title. 
 In the About section, there's a short introduction and work experience paragraph with a picture of myself on the right.
 Next, in the Portfolio section there's a carousel slider with client photos. In the Tutorial section there are 4 videos from Youtube, in the Contact section a booking form 
 and lastly, in my footer there are links to my social media.
@@ -55,8 +55,7 @@ The light pink color scheme was chosen to give a girly and fun look.
 ## Features 
 In the Home section, I wanted something clean and simple, so I included my name and job title. In the About section, I wanted to briefly introduce myself and what I have achieved as a Makeup Artist in the past. In the Portfolio section, I wanted them to see some of my before and after work on clients so I can show my skills. I created the Tutorials section because I wanted anyone who visits my website to leave with learning something on how to improve their own makeup skills. In the Contact section, I wanted to provide a means for the user to book an appointment without necessarily needing to call. And lastly, in my footer, I included my social media links for further connections.
 
-  
-## Features Left To Implement
+### Features Left To Implement
 
 In the future, I would like to add more pictures of clients that I've worked with to expand my portfolio and add a new page with Quizzes so that users can easily find out what their skin type is and what colors work best on their skin. Additionally, I would like to create a new page whereby I will share my favorite makeup companies and products and provide users with a coupon code.
 
@@ -75,7 +74,7 @@ I have noticed that on Safari and Internet Explorer there was a gap between the 
 The site was also tested on multiple devices such as MacBook Pro, Huawei Mediapad T5, Iphone 8 Plus and Huawei P30 Pro to ensure it would be correctly displayed across mobile devices.
 
 ### Navbar
-The Navbar item that it's being hovered will become a bit bigger and darker.This website has a fixed navigation bar containing five menu items. In a tablet and mobile view the navigation bar collapses into a hamburger menu. Bootstrap alongside its Javascript/JQuery plugins was used to achieve this.
+This website has a fixed navigation bar containing five menu items. In a tablet and mobile view the navigation bar collapses into a hamburger menu. Bootstrap alongside its Javascript/JQuery plugins was used to achieve this. The Navbar item that it's being hovered will become a bit bigger and darker.
 
 ### Portfolio 
 The carousel slider automatically goes to the next photo after 10 seconds. It includes buttons on the left and right so you can go in the next or previous photo.Those buttons have a trasparent burgundy color and when you hover over them they become darker.
@@ -157,7 +156,7 @@ To cut ties with this GitHub repository, type `git remote rm origin` into the te
 ## Credits 
 
 ### Content 
-All content in the "About Me" section was written by me.
+All content in the "About" section was written by me.
 
 
 ### Media 
