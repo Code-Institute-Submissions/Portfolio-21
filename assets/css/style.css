@@ -35,7 +35,7 @@ header {
     background-attachment: fixed;
     position: relative;
     min-height: 100vh;
-    margin-bottom: -30px;
+    /*margin-bottom: -30px;*/
 }
 
 .my-image  {
@@ -148,9 +148,9 @@ padding-left: 55px;
 .carousel-control-prev, .carousel-control-next {
    width: 40px;
    height: 40px;
-   margin-top: 280px;
+   margin-top: 300px;
    margin-left: 100px;
-   margin-right: 100px;
+   margin-right: 80px;
    background-color: #520238;
    opacity: .5;
    border-radius: 50%;
@@ -344,14 +344,14 @@ margin-bottom: 60px;
 
 .responsive-iframe {
     width: 80%;
-    height: 280px;
-    margin-top: 13%;
-   
+    height: 280px; 
+    margin-top: 10%;
 }
 
-.vid-tutorials {
-    padding-right: 10%;
-}
+
+
+
+
 
 
 
@@ -437,6 +437,13 @@ padding-top: 60px;
    .spacing-style {
     margin-left: 10%;
 } 
+.portfolio-bg-image {
+    min-height: 800px;
+}
+.tutorial-bg-image {
+    min-height: 50%;
+}
+
 }
 
 
@@ -680,42 +687,83 @@ padding-top: 40px;
  .carousel-item {
      width: 100%;
      height: 70%;
-      margin-top: 30px;
+      margin-top: 40px;
      
  }
  .portfolio-heading {
      margin-top: 20px;
  }
  .portfolio-bg-image {
-     min-height: 900px;
+     min-height: 650px;
  }
  .vid-tutorials {
      margin-top: 50px;
  }
  }
+ 
 
 
- @media only screen and (min-width: 1280px) {
-.my-image {
-    margin-top: 50px;
-}
-.about-heading {
-    margin-top: 50px;
-}
-.portfolio-heading {
-    margin-top: 30px;
-}
-.carousel-item {
-    margin-top: 50px;
-}
-.carousel-control-next, .carousel-control-prev {
-    margin-top: 50px;
-}
-.vid-tutorials {
-    margin-top: 90px;
-}
+
+@media screen and (max-device-width: 992px) and (orientation: landscape) {
+     .name-heading {
+         padding-top: 25%;
+     }
+     .portfolio-bg-image {
+         min-height: 650px;
+     }
+     .carousel-item {
+         padding-bottom:70%;
+     }
+     .portfolio-heading {
+
+     }
 
  }
+
+ @media screen and (max-device-width: 569px) and (orientation: landscape) {
+    .portfolio-bg-image {
+         min-height: 700px;
+     }
+     .portfolio-heading {
+        
+     }
+     .carousel-item {
+         padding-bottom: 100%;
+     }
+ }
+
+ @media screen and (min-device-width: 1000px) and (max-device-width: 1024px) (orientation: landscape) {
+    .portfolio-bg-image {
+         min-height: 350px;
+     }
+     .carousel-item  {
+         margin-top: 70px;
+     }
+ }
+
+ @media screen and (min-device-width: 1365px) and  (orientation: landscape) {
+    #about {
+        min-height: 400px;
+    }
+    .tutorial-bg-image {
+        min-height: 600px;
+    }
+    #sunrise-look {
+        margin-bottom: 10%;
+    }
+ }
+
+ 
+
+
+
+
+
+
+ 
+
+
+
 
 
 
