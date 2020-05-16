@@ -80,10 +80,10 @@ The site's HTML code has been tested in [W3 Validator](https://validator.w3.org/
 This website has a fixed navigation bar containing five menu items. In a tablet and mobile view the navigation bar collapses into a hamburger menu. Bootstrap alongside its Javascript/JQuery plugins was used to achieve this. The Navbar item that it's being hovered will become a bit bigger and darker.
 
 ### Portfolio 
-The carousel slider automatically goes to the next photo after 10 seconds. It includes buttons on the left and right so you can go in the next or previous photo.Those buttons have a trasparent burgundy color and when you hover over them they become darker.
+The carousel slider automatically goes to the next photo after 10 seconds. It includes buttons on the left and right so you can go in the next or previous photo.Those buttons have a trasparent burgundy color and when you hover over them they become darker. 
 
 ### Tutorials
-You can play the videos in the Tutorial sections ....
+The Youtube videos 
 
  
 ### Contact Form
