@@ -4,11 +4,11 @@
      font-family: 'Montserrat' , sans-serif;
  }
 
-header {
+/*header {
     position: absolute;
     z-index: 10;
     width: 100%;
-}
+}*/
 
 .uppercase {
    text-transform: uppercase; 
@@ -16,7 +16,7 @@ header {
 
 
 
-/* Images */
+/* IMAGES */
 
 .hero-image {
     background: url("../images/option37.jpg");
@@ -28,25 +28,22 @@ header {
     min-height: 100vh;
 }
 
-#about {
+.about-bg-image {
     background: url("../images/option6.jpg");
+    /*background-position: center;*/
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
     min-height: 100vh;
-    /*margin-bottom: -30px;*/
 }
 
 .my-image  {
-    max-width: 100%;
     margin-top: 80px;
     margin-bottom: 80px;
     width: 100%;
     height: auto;
-    border-style: solid;
-    border-color: #ebb0c6;
-    border-width: 2px;
+    border: 2px solid #ebb0c6;
 }
 
 .portfolio-bg-image {
@@ -57,27 +54,17 @@ header {
     min-height: 100vh;
 }
  
- 
- .carousel-item {
-     width: 100%;
-     height: 100%;
-     margin-left: 20%;
-     margin-bottom: 5%;
-     padding-right: 40%;  
-     
- }
-
  .tutorial-bg-image {
-     background: url("../images/option41.jpg");
-     background-repeat: no-repeat;
+    background: url("../images/option41.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
  }
 
  .contact-bg-image {
-     background: url("../images/option36.jpg");
-     background-repeat: no-repeat;
+    background: url("../images/option36.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     max-height: 745px;
@@ -86,15 +73,19 @@ header {
 
 
 
-/* Headings */
+
+
+
+/* HEADINGS */
 
 .name-heading {
-    /*text-align: center;*/
     font-family: 'Akronim' , sans-serif;
     font-size: 50px;
     letter-spacing: 5px;
     color: #f2bbdd;
     text-shadow: 3px 3px 2px #000;
+    padding-top: 450px;
+    padding-left: 15px;
 }
 
 .job-title-heading {
@@ -103,7 +94,7 @@ header {
    letter-spacing: 5px;  
    color: #fff;
    text-shadow: 2px 2px 2px #000;
-   padding-left: 45px;
+   padding-left: 55px;
 }
 
 .about-heading  {
@@ -126,38 +117,12 @@ header {
 }
 
 .contact-heading {
-    margin-top: 20%;
+    margin-top: 10%;
     margin-left: 5%;
+    margin-right: 7%;
     color: #7d0155;
     text-shadow: 2px 1px 3px #fff;
-}
-
-.name-heading {
-    padding-top: 450px;
-    padding-left: 15px;
-}
-
-.job-title-heading {
-padding-left: 55px;
-}
-
-
-
-/* Buttons */
-
-.carousel-control-prev, .carousel-control-next {
-   width: 40px;
-   height: 40px;
-   margin-top: 300px;
-   margin-left: 100px;
-   margin-right: 80px;
-   background-color: #520238;
-   opacity: .5;
-   border-radius: 50%;
-}
-
-.book-now-btn:hover {
-    background-color: #99006a !important ;
+    
 }
 
 
@@ -165,8 +130,7 @@ padding-left: 55px;
 
 
 
-
-/* Nav Bar */
+/* NAV BAR */
 
 .navbar {
   position: fixed;
@@ -175,15 +139,9 @@ padding-left: 55px;
   text-shadow: 1px 0px 3px #fff;
 }
 
-.navbar-brand {
-   font-size: 17px;
-   color: #7d0155 !important;
-}
-
 .navbar .nav-item {
     padding: 0 5px;
     margin: 10px;
-    color: #fff;
 }
 
 .navbar li a {
@@ -202,7 +160,36 @@ a.nav-link.active {
 
 
 
-/* About Section */
+/* BUTTONS */
+
+.carousel-control-prev, .carousel-control-next {
+   width: 40px;
+   height: 40px;
+   margin-top: 300px;
+   margin-left: 100px;
+   margin-right: 80px;
+   background-color: #520238;
+   opacity: .5;
+   border-radius: 50%;
+}
+
+.book-now-btn {
+    margin-top: 4%;
+    margin-right: 20px;
+    background-color: #6e014b;
+    color: #fff;
+    margin-bottom:0;
+}
+
+.book-now-btn:hover {
+    background-color: #99006a !important ;
+}
+
+
+
+
+
+/* ABOUT SECTION */
 
 .about-me-one  {
    text-align: inherit;
@@ -223,120 +210,28 @@ a.nav-link.active {
 
 
 
-/* Footer */
 
-footer {
-   text-align: center;
-   margin-top: 10px;
-   padding-top: 2px;
-   height: 10px;
-  
-}
-
-.inline-block {
-     display: inline-block;
- }
-
-.social-media {
-    margin-top: 0;
-    padding-top: 0;
-    padding-left: 2px;
-}
-
-.social-media li a i {
-    width: 40px;
-    height: 40px;
-    padding-top: 25px;
-   
-    font-size: 30px;
-    text-align: center;
-    color: #6e014b;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.social-media li a i:hover {
-    color: #b5027f;
-}
-
-
-
-
-/* Contact Page*/
-
-.book-now-btn {
-    margin-top: 4%;
-    margin-right: 20px;
-    background-color: #6e014b;
-    color: #fff;
-    margin-bottom:0;
-    
-}
-
- .fnemail {
-   width: 100%;
-   margin-top: 5%;
-   border: 1px solid #6e014b;
-   padding-left: 15px;
-}
-
-
-.select-form {
-   margin-right: 10px;
-   margin-top: 3%;
-   padding-top: 10px;
-   text-shadow: 1px 1px 1px #fff;
-}
-
-.c-container {
-  padding-top: 2px;
-   text-align: center;
-}
-
-.contact-info {
-  text-align: center;
-  position: relative;
-  margin-left: 20px;
- 
-margin-bottom: 60px;
- padding-top:10px;
- 
-}
-
-.contact-info form {
-    text-align: center;
-    grid-gap: 2px;
-    
-   margin-top: 10px;
-}
-
-.request-box {
-    padding-top: 5%;
-}
-
-.service-options {
-    border: solid 1px;
-    }
-
-.contact-heading {
-    margin-top: 10%;
-   margin-right: 7%;
-    color: #520238;
-    text-shadow: 1px 1px 1px #fff;
+/* PORTFOLIO SECTION */ 
+.carousel-item {
+     width: 100%;
+     height: 100%;
+     margin-left: 20%;
+     margin-bottom: 5%;
+     padding-right: 40%;  
  }
 
 
 
 
-/* Tutorial Section */
+
+
+/* TUTORIAL SECTION */
 
 .tutorial-headings {
-    color: #520238;
-    padding-top: 2px;
-    text-align: center;
-    margin-left: 7%;
+   color: #520238;
+   padding-top: 2px;
+   text-align: center;
+   margin-left: 7%;
    text-shadow: 0px 1px 1px #fff;
    word-wrap: none;
  
@@ -353,6 +248,34 @@ margin-bottom: 60px;
 
 
 
+/* CONTACT PAGE */
+
+ .fields {
+   width: 100%;
+   margin-top: 5%;
+   border: 1px solid #6e014b;
+   padding-left: 15px;
+}
+
+.select-form {
+   margin-right: 10px;
+   margin-top: 3%;
+   padding-top: 10px;
+}
+
+.contact-info {
+  text-align: center;
+  position: relative;
+  margin-left: 20px;
+  margin-bottom: 60px;
+  padding-top:10px;
+  grid-gap: 2px; 
+  margin-top: 10px;
+}
+
+.service-options {
+  border: solid 1px;
+}
 
 
 
@@ -360,17 +283,41 @@ margin-bottom: 60px;
 
 
 
+/* FOOTER */
 
-
-
-
-
+footer {
+   text-align: center;
+   margin-top: 10px;
+   padding-top: 2px;
+   height: 10px;
   
+}
+
+.inline-block {
+     display: inline-block;
+ }
+
+.social-media li a i {
+    width: 45px;
+    height: 45px;
+    padding-top: 10px;
+    padding-left: 2px;
+    font-size: 30px;
+    text-align: center;
+    color: #6e014b;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-media li a i:hover {
+    color: #b5027f;
+}
 
 
 
 
- 
 
 
 
@@ -379,12 +326,7 @@ margin-bottom: 60px;
 
 
 
-
-
-
-
-
-/* Media Queries */
+/* MEDIA QUERIES */
 
 
 
@@ -509,13 +451,13 @@ padding-top: 40px;
     padding-top: 150px;
     font-size: 35px;
  }
- .vid-tutorials iframe {
+ /*.vid-tutorials iframe {
     width: 70%;
     height: 280px;
     margin-top: 10%;
     margin-right: 20px;
    
-}
+}*/
 .tutorial-headings {
     text-align: center;
     margin-right: 30px;
@@ -634,12 +576,12 @@ padding-top: 40px;
 
 
  @media only screen and (min-width: 767px) and (max-width: 1025px) {
-.vid-tutorials iframe {
+/*.vid-tutorials iframe {
     width: 100%;
     height: 280px;
     margin-top: 6%;
     margin-right: 20px;
-}
+}*/
 .tutorial-headings {
     text-align: center;
     margin-right: 50px;
@@ -653,20 +595,20 @@ padding-top: 40px;
 .about-me-two {
     margin-bottom: 80px;
 }
-#about { 
+.about-bg-image { 
     min-height: 500px;
 }
  }
 
 
  @media only screen and (max-width: 575px){
-    .vid-tutorials iframe {
+    /*.vid-tutorials iframe {
     width: 100%;
     height: 200px;
     margin-top: 6%;
    display: flex;
   flex-direction: column;
-}
+}*/
    .tutorial-headings {
     text-align: center;
     margin-right: 50px;
@@ -696,9 +638,9 @@ padding-top: 40px;
  .portfolio-bg-image {
      min-height: 650px;
  }
- .vid-tutorials {
+ /*.vid-tutorials {
      margin-top: 50px;
- }
+ }*/
  }
  
 
@@ -714,18 +656,11 @@ padding-top: 40px;
      .carousel-item {
          padding-bottom:70%;
      }
-     .portfolio-heading {
-
-     }
-
  }
 
  @media screen and (max-device-width: 569px) and (orientation: landscape) {
     .portfolio-bg-image {
          min-height: 700px;
-     }
-     .portfolio-heading {
-        
      }
      .carousel-item {
          padding-bottom: 100%;
@@ -742,7 +677,7 @@ padding-top: 40px;
  }
 
  @media screen and (min-device-width: 1365px) and  (orientation: landscape) {
-    #about {
+    .about-bg-image {
         min-height: 400px;
     }
     .tutorial-bg-image {
