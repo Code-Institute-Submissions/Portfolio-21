@@ -30,7 +30,6 @@
 
 .about-bg-image {
     background: url("../images/option6.jpg");
-    /*background-position: center;*/
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -39,20 +38,17 @@
 }
 
 .my-image  {
-    margin-top: 80px;
-    margin-bottom: 80px;
+    
+   
+    min-height: auto;
     width: 100%;
-    height: auto;
+    background-size: cover;
+    background-position: top;
     border: 2px solid #ebb0c6;
 }
 
 .portfolio-bg-image {
-    /*background: url("../images/port234.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    min-height: 100vh;*/
-    background-image: linear-gradient(#fff, #f8cede, #fff);
+    background-image: linear-gradient(#fff, #fcdee8, #fff);
 }
  
  .tutorial-bg-image {
@@ -100,9 +96,9 @@
 
 .about-heading  {
     text-align: center;
-    padding-top: 120px;
-    padding-right: 50px;
-    margin: 100;
+    padding-top: 5%;
+    
+    /*margin: 100;*/
     font-size: 40px;
     color: #7d0155;
     text-shadow: 2px 1px 3px #fff;
@@ -195,7 +191,7 @@ a.nav-link.active {
 
 .about-me-one  {
    text-align: inherit;
-   padding-top: 80px;
+   padding-top: 15%;
    padding-left: 15px;
    color: #520238;
    font-size: 20px; 
@@ -203,7 +199,7 @@ a.nav-link.active {
 
 .about-me-two  {
    text-align: inherit;
-   padding-top: 50px;
+   padding-top: 10%;
    padding-left: 15px;
    color: #520238;
    font-size: 20px;
@@ -216,8 +212,7 @@ a.nav-link.active {
 /* PORTFOLIO SECTION */ 
 
 .carousel-item {
-     width: 100%;
-     /*height: 80%;*/
+     /*width: 100%;*/
      margin-left: 20%;
      margin-bottom: 5%;
      padding-right: 40%;  
@@ -246,6 +241,7 @@ a.nav-link.active {
     width: 80%;
     height: 280px; 
     margin-top: 10%;
+    border: 2px double #f2bbdd;
 }
 
 
@@ -333,30 +329,14 @@ footer {
 
 /* MEDIA QUERIES */
 
-/*
 
- @media only screen and (max-width: 500px) {
-.about-me-one {
-padding-top: 20px;
- padding-left: 20px;
-}
-.about-me-two {
-padding-top: 60px;
- padding-left: 13px;
-}
-.about-heading {
-   padding-top: 2px;
-    padding-bottom: 25px;
-    padding-right: 19px;
-}
-.hero-image {
+
+ /*@media only screen and (max-width: 500px) {
+/*.hero-image {
     padding-left: 5px;
 }
 .job-title-heading {
     padding-left: 5px;
-}
-.my-image {
-    margin-top: 50px;
 }
 .tutorial-headings {
     margin-left: 20%;
@@ -379,50 +359,57 @@ padding-top: 60px;
  .spacing-style {
     margin-left: 10%;
 }
-}
-
-
-
-@media only screen and (min-width: 767px) {
-   .spacing-style {
-    margin-left: 10%;
-} 
-.portfolio-bg-image {
-min-height: 100vh;
-}
-.tutorial-bg-image {
-    min-height: 50%;
-}
-}
-
-
-
- 
- @media only screen and (min-width: 992px) and (max-width: 1199px) {
-     .my-image {
-     width: 100%;
-     height: 550px;
-     margin-top: 120px;
+.my-image {
+ margin-top: 20%;
  }
  .about-me-one {
 padding-top: 10px;
- padding-left: 20px;
+ font-size: 19px;
 }
 .about-me-two {
 padding-top: 40px;
- padding-left: 13px;
+padding-bottom: 5%;
+ font-size: 19px;
 }
- }
+.about-heading {
+   padding-top: 2%;
+    padding-bottom: 6%;
+    padding-left: 6%;
+}
+}
 
 
 
-
-
- @media only screen and (min-width: 768px) and (max-width: 992px) {
-     .my-image {
+@media only screen and (min-width: 768px) {
+.spacing-style {
+    margin-left: 10%;
+} 
+.tutorial-bg-image {
+    min-height: 50%;
+}
+.my-image {
      width: 100%;
-     height: 400px;
-     margin-top: 200px;
+     height: auto;
+     margin-top: 15%;
+ }
+.about-bg-image {
+    min-height: 500px;
+}
+.about-me-one {
+padding-top: 15%;
+}
+.about-me-two {
+padding-top: 10%;
+}
+.about-heading {
+    padding-top: 25%;
+}
+}*/
+
+
+ /*@media only screen and (min-width: 769px) and (max-width: 991px) {
+     .my-image {
+     margin-top: 400px;
  }
  .about-me-one {
 padding-top: 10px;
@@ -439,25 +426,6 @@ padding-top: 40px;
     padding-bottom: 20px;
     padding-left: 27px;
 }
-.carousel-control-prev, .carousel-control-next {
-   width: 2%;
-   height: 30px;
-   margin-top: 240px;
-   margin-left: 2px;
-   margin-right: 2px;
-  
-}
-.carousel-item {
-     width: 100%;
-     height: 300px;
-     margin-left: 20%;
-     margin-top: 50px;
- }
- .portfolio-heading {
-    padding-bottom: 5px;
-    padding-top: 2%;
-    font-size: 35px;
- }
 .tutorial-headings {
    margin-right: 60px;
 }
@@ -467,111 +435,13 @@ padding-top: 40px;
 .tutorial1 {
     margin-top: 60px;
 }
- }
-
-
-
-
-
- @media only screen and (min-width: 450px) and (max-width: 766px) {
-.about-heading {
-   padding-top: 10px;
-    padding-bottom: 60px;
-    padding-left: 35px;
+.my-image {
+    margin-top: 200px;
 }
-.about-me-one {
-padding-top: 10px;
- padding-left: 20px;
- font-size: 19px;
-}
-.about-me-two {
-padding-top: 40px;
- padding-left: 13px;
- padding-bottom: 30px;
- font-size: 19px;
-}
-.carousel-control-prev, .carousel-control-next {
-   width: 6%;
-   height: 30px;
- margin-left: 10px;
- margin-right: 10px;
- margin-top: 150px;
-}
-.carousel-item {
-     width: 100%;
-     height: 310px;
-     margin-left: 20%;
-     margin-bottom: 500px;
-     
- }
- .portfolio-heading {
-    margin-bottom: 50px;
-    margin-top: 50px;
-    font-size: 35px;
- }
- .portfolio-bg-image {
-     max-height: 300px;
- }
  }
 
 
 
-
-
- @media only screen and (min-width: 450px) and (max-width: 583px) {
-    .carousel-control-prev, .carousel-control-next {
-     height: 30px;
-     margin-top: 170px;
-     }
-     .carousel-item {
-     width: 100%;
-     height: 70%;
-      margin-top: 60px;
- }
- .portfolio-heading {
-    margin-top: 80px;
- }
- }
-
-
- @media only screen and (min-width: 335px) and (max-width: 449px) {
-    .carousel-control-prev, .carousel-control-next {
-     width: 2%;
-     height: 30px;
-     margin-top: 140px;
-     margin-left: 10%;
-     margin-right: 10%;
-     }
-     .carousel-item {
-     width: 100%;
-     height: 70%;
-      margin-top: 70px;
- }
- .portfolio-heading {
-    margin-top: 80px;
- }
- }
-
-
-
-
- @media only screen and (max-width: 334px){
-    .carousel-control-prev, .carousel-control-next {
-     width: 2%;
-     height: 30px;
-     margin-top: 280px;
-     margin-left: 10%;
-     margin-right: 10%;
-     }
-     .carousel-item {
-     width: 100%;
-     height: 70%;
-      margin-top: 100px;
- }
- .portfolio-heading {
-    margin-top: 80px;
- }
- }
 
 
  @media only screen and (min-width: 767px) and (max-width: 1025px) {
@@ -602,62 +472,31 @@ padding-top: 40px;
     #sunrise-look {
     margin-bottom: 40px;
 }
- }
+ }*/
 
 
- @media only screen and (max-width: 415px){
-    .contact-bg-image {
-    max-height: 700px;
- }
- .hero-image {
-     padding-bottom: 20px;
- }
- .carousel-item {
-     width: 100%;
-     height: 70%;
-      margin-top: 40px;
-     
- }
- .portfolio-heading {
-     margin-top: 20px;
- }
- .portfolio-bg-image {
-     min-height: 650px;
- }
 
-*/
+
+
+
+/* LANDSCAPE */
+
+
 
 @media screen and (max-device-width: 992px) and (orientation: landscape) {
-     ..name-heading {
+     .name-heading {
          padding-top: 25%;
      }
      .portfolio-heading {
          padding-top: 1%;
          padding-bottom: 1%;
      }
-     ..carousel-item {
-         padding-bottom:70%;
-     }
+    
  }
+
 
 /*
- @media screen and (max-device-width: 569px) and (orientation: landscape) {
-    .portfolio-bg-image {
-         min-height: 700px;
-     }
-     .carousel-item {
-         padding-bottom: 100%;
-     }
- }
-
- @media screen and (min-device-width: 1000px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .portfolio-bg-image {
-         min-height: 350px;
-     }
-     .carousel-item  {
-         margin-top: 70px;
-     }
- }
+ 
 
  @media screen and (min-device-width: 1365px) and  (orientation: landscape) {
     .about-bg-image {
