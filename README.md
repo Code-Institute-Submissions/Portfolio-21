@@ -83,7 +83,7 @@ This website has a fixed navigation bar containing five menu items. In a tablet 
 The carousel slider automatically goes to the next photo after 10 seconds. It includes buttons on the left and right so you can go in the next or previous photo.Those buttons have a trasparent burgundy color and when you hover over them they become darker. 
 
 ### Tutorials
-The Youtube videos 
+The tutorial videos have a YouTube icon in middle and when you click it, the video starts playing. You have the option to pause it, adjust the volumn, watch it on full screen and even go to the Youtube channel. You can play all at the same time and at the end of each of them it displays other video suggestions.
 
  
 ### Contact Form
@@ -116,7 +116,7 @@ HTML was used in this project to keep up with the latest industry standards.
 
 2. [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets).
 
-CSS was used for styling the content on the website
+CSS was used for styling the content on the website.
 
 3. [Bootstrap](https://getbootstrap.com/)
 

@@ -28,9 +28,6 @@
     min-height: 100vh;
 }
 
-#about {
-    margin-top: 0;
-}
 
 .about-bg-image {
     background: url("../images/option6.jpg");
@@ -70,9 +67,7 @@
     max-height: 745px;
  }
 
- #tutorials {
-     padding-top: 4%;
- }
+
 
 
 
@@ -249,7 +244,7 @@ a.nav-link.active {
     width: 80%;
     height: 280px; 
     margin-top: 10%;
-    border: 2px double #f2bbdd;
+    border: 4px double #f2bbdd;
 }
 
 
@@ -377,6 +372,9 @@ padding-top: 10%;
 padding-bottom: 6%;
 padding-left: 6%;
 }
+.hero-image {
+    background-attachment: scroll;
+}
 }
 
 
@@ -433,12 +431,15 @@ padding-top: 5%;
      }
  }
 
+
+
+
  @media only screen and (min-width: 1200px) {
      .about-bg-image {
          min-height: 100%;
      }
-     .spacing-style {
-       padding-top: 250px;
+     .responsive-iframe {
+         margin-top: 15%;
      }
  }
 
