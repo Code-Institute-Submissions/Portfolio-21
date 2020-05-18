@@ -29,8 +29,8 @@
 }
 
 .about-bg-image {
-    background: url("../images/option6.jpg");
-    /*background-color: pink;*/
+    /*background: url("../images/option6.jpg");*/
+    background-color: pink;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
