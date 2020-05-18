@@ -30,20 +30,20 @@
 
 .about-bg-image {
     background: url("../images/option6.jpg");
+    /*background-color: pink;*/
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
     min-height: 100vh;
+  
 }
 
 .my-image  {
-    
-   
     min-height: auto;
     width: 100%;
     background-size: cover;
-    background-position: top;
+    /*background-position: top;*/
     border: 2px solid #ebb0c6;
 }
 
@@ -96,9 +96,8 @@
 
 .about-heading  {
     text-align: center;
-    padding-top: 5%;
-    
-    /*margin: 100;*/
+    padding-top: 140px;
+    margin: 100;
     font-size: 40px;
     color: #7d0155;
     text-shadow: 2px 1px 3px #fff;
@@ -191,7 +190,8 @@ a.nav-link.active {
 
 .about-me-one  {
    text-align: inherit;
-   padding-top: 15%;
+   /*padding-top: 40%;*/
+   padding-top: 80px;
    padding-left: 15px;
    color: #520238;
    font-size: 20px; 
@@ -199,7 +199,8 @@ a.nav-link.active {
 
 .about-me-two  {
    text-align: inherit;
-   padding-top: 10%;
+   /*padding-top: 10%;*/
+   padding-top: 50px;
    padding-left: 15px;
    color: #520238;
    font-size: 20px;
@@ -331,18 +332,11 @@ footer {
 
 
 
- /*@media only screen and (max-width: 500px) {
-/*.hero-image {
-    padding-left: 5px;
-}
+ @media only screen and (max-width: 500px) {
 .job-title-heading {
-    padding-left: 5px;
-}
-.tutorial-headings {
-    margin-left: 20%;
+padding-left: 15px;
 }
 }
-
 
 
 @media only screen and (max-width: 767px) {
@@ -353,28 +347,28 @@ footer {
     color: #520238;
  }
  .contact-info {
-     margin-right: 20px;
-  padding-top: 10px;
+margin-right: 20px;
+padding-top: 10px;
  }
  .spacing-style {
-    margin-left: 10%;
+ margin-left: 10%;
 }
 .my-image {
- margin-top: 20%;
+margin-top: 20%;
  }
  .about-me-one {
 padding-top: 10px;
- font-size: 19px;
+font-size: 19px;
 }
 .about-me-two {
 padding-top: 40px;
 padding-bottom: 5%;
- font-size: 19px;
+font-size: 19px;
 }
 .about-heading {
-   padding-top: 2%;
-    padding-bottom: 6%;
-    padding-left: 6%;
+padding-top: 10%;
+padding-bottom: 6%;
+padding-left: 6%;
 }
 }
 
@@ -384,13 +378,9 @@ padding-bottom: 5%;
 .spacing-style {
     margin-left: 10%;
 } 
-.tutorial-bg-image {
-    min-height: 50%;
-}
 .my-image {
-     width: 100%;
-     height: auto;
-     margin-top: 15%;
+    margin-top: 15%;
+    margin-bottom: 20%;
  }
 .about-bg-image {
     min-height: 500px;
@@ -399,80 +389,45 @@ padding-bottom: 5%;
 padding-top: 15%;
 }
 .about-me-two {
-padding-top: 10%;
+padding-top: 5%;
 }
-.about-heading {
-    padding-top: 25%;
-}
+/*.about-heading {
+   padding-top: 5%;
 }*/
 
+}
 
- /*@media only screen and (min-width: 769px) and (max-width: 991px) {
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+     .about-bg-image {
+         min-height: 800px;
+     }
      .my-image {
-     margin-top: 400px;
+         margin-top: 60%;
+     }
+     .about-me-one {
+         padding-top: 40px;
+     }
+    .about-heading {
+        margin-top: -90px;
+    }
  }
- .about-me-one {
-padding-top: 10px;
- padding-left: 20px;
- font-size: 19px;
-}
-.about-me-two {
-padding-top: 40px;
- padding-left: 13px;
- font-size: 19px;
-}
-.about-heading {
-   padding-top: 80px;
-    padding-bottom: 20px;
-    padding-left: 27px;
-}
-.tutorial-headings {
-   margin-right: 60px;
-}
-#sunrise-look {
-    margin-bottom: 40px;
-}
-.tutorial1 {
-    margin-top: 60px;
-}
-.my-image {
-    margin-top: 200px;
-}
+
+
+ @media only screen and (min-width: 992px) and (max-width: 1200px) {
+     .about-bg-image {
+         min-height: 850px;
+     }
+     .my-image {
+         margin-top: 30%;
+     }
+     .about-me-one {
+         padding-top: 40px;
+     }
  }
 
 
 
-
-
- @media only screen and (min-width: 767px) and (max-width: 1025px) {
-.tutorial-headings {
-    text-align: center;
-    margin-right: 50px;
-}
-#sunrise-look {
-    margin-bottom: 40px;
-}
-.about-heading { 
-    margin-top: 10px;
-}
-.about-me-two {
-    margin-bottom: 80px;
-}
-.about-bg-image { 
-    min-height: 500px;
-}
- }
-
-
- @media only screen and (max-width: 575px){
-   .tutorial-headings {
-    text-align: center;
-    margin-right: 50px;
-}
-    #sunrise-look {
-    margin-bottom: 40px;
-}
- }*/
 
 
 
@@ -494,22 +449,6 @@ padding-top: 40px;
     
  }
 
-
-/*
- 
-
- @media screen and (min-device-width: 1365px) and  (orientation: landscape) {
-    .about-bg-image {
-        min-height: 400px;
-    }
-    .tutorial-bg-image {
-        min-height: 600px;
-    }
-    #sunrise-look {
-        margin-bottom: 10%;
-    }
- }
-*/
  
 
 
