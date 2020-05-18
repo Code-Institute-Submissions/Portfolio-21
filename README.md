@@ -77,7 +77,7 @@ I have noticed that there was a gap between the Home and About page. To fix this
 The site's HTML and CSS code has been tested in [W3C Validator](https://validator.w3.org/) and the responsiveness in [Responsinator](https://www.responsinator.com/) and [Am I Responsive](http://ami.responsivedesign.is/).
 
 ### Navbar
-This website has a fixed navigation bar containing five menu items. In a tablet and mobile view the navigation bar collapses into a hamburger menu. Bootstrap alongside its Javascript/JQuery plugins was used to achieve this. The Navbar item that it's being hovered will become a bit bigger and darker.
+This website has a fixed navigation bar containing five menu items. In a tablet and mobile view the navigation bar collapses into a hamburger menu allowing users to effectively navigate. Bootstrap alongside its Javascript/JQuery plugins was used to achieve this. The Navbar item that it's being hovered will become a bit bigger and darker.
 
 ### Portfolio 
 The carousel slider automatically goes to the next photo after 10 seconds. It includes buttons on the left and right so you can go in the next or previous photo.Those buttons have a trasparent burgundy color and when you hover over them they become darker. 
@@ -136,9 +136,10 @@ Gitpod was used to develop this project.
 
 ### Libraries
 
-1. Social Media Icons were taken from [Font Awesome](https://fontawesome.com/).
+1. All the icons used in footer were obtained from [Font Awesome](https://fontawesome.com/).
 2. Hover CSS Animations were taken from [Hover.css](http://ianlunn.github.io/Hover/).
 3. Fonts were taken from [Google Fonts](https://fonts.google.com/).
+4. Bootstrap classes were used to build the navigation bar and to make the website responsive. 
 
   
 
