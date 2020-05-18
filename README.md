@@ -3,28 +3,20 @@ Milestone Project : User-Centric Frontend Development - Code Institute
 
 I am a Full Stack Web Developer and a Makeup Artist and this is my portfolio website, created to attract clients. My portfolio includes a little bit about myself and my experience, it highlights my work and achievements by including before and after pictures of clients and makeup tutorials so that anyone who visits my website can learn something, as well as a form where clients can book their next appointment! 
 
-## Demo 
-
-A live demo can be found [here](https://vasileia-apostolou.github.io/Portfolio/).
 
 ## UX 
 
 I've created this website for those who are looking for a makeup artist and for those who would like to learn how to create fun and colorful makeup looks. Overall, the goal of this website is to show my passion, provide service, and share a few of my tips. 
 
-* As a new user, I should:   
+* As a client, I should:   
 
     * Get to know who Vasileia is.
     * Get to know what her achievements and work experience is.
     * Look at her makeup skills on her clients.
-    * Learn a few tips on how to recreate her looks.
+    * Learn a few tips on how to recreate her looks from her tutorials.
     * Be able to book an appointment.
-    * Look at her social media for further connections.
+    * Connect with her through social media.
    
-* As a client, I should: 
-     
-    * See and learn from Vasileia's new tutorials.
-    * See Vasileia's new clients.
-    * Be able to contact her for my next appointments.
 
 
  ### Strategy 
@@ -34,7 +26,7 @@ I've created this website for those who are looking for a makeup artist and for
 
 ### Scope
 
-For clients, my goal was to provide a brief overview of myself as a Makeup Artist and the love I have for what I do. This includes a brief introduction about me, my work, sharing makeup tutorials, a booking form for appointments, and many options for contacting me through social media.
+For clients, my goal was to provide a brief overview of myself as a Makeup Artist and the love I have for what I do. This includes a brief introduction about me, my work, sharing makeup tutorials, a booking form for appointments, and many options for connecting with me through social media.
 
 ### Structure 
 
@@ -61,6 +53,7 @@ In the future, I would like to add more pictures of clients that I've worked w
 
 ## Testing
 The client user story achieved the intended outcome of providing them with a showcase of myself and my work. In the About section, you can read a bit about my work experience, and there is a photo of me. You are able to see my work in the Portfolio section where there'll be before and after photos of my clients. Plus in the Tutorials sections you can watch a few of my videos on how to achieve some of my colorful looks.
+The manual test was carried out at every stage to ensure user experience standards remained at consistently high levels with each new implementation. 
 
 ### Browsers and Devices
  The site was tested in the following browsers to ensure the site is compatible and responsive.
@@ -70,39 +63,36 @@ The client user story achieved the intended outcome of providing them with a sho
   * Opera
   * Internet Explorer 
 
-The site was also tested on multiple devices such as MacBook Pro, Huawei Mediapad T5, Iphone 8 Plus and Huawei P30 Pro to ensure it would be correctly displayed across laptop,tablet and mobile devices.
-I have noticed that there was a gap between the Home and About page. To fix this I removed ```padding: 450px``` from Hero Image and replaced it in ```.name-heading```.
+The site was also tested on multiple devices such as MacBook Pro, Huawei Mediapad T5, Iphone 8 Plus and Huawei P30 Pro to ensure it would be correctly displayed across laptop,tablet and mobile devices. 
+I have noticed that there was a gap between the Home and About page on all landscape views. To fix this I removed ```padding-top: 450px``` from Hero Image, replaced it in ```.name-heading```. The same issue was found on Safari and Internet Explorer and got fixed by adding ```margin-top: -8px;```   in    ```.about-bg-image```.
 
 ### Validators 
-The site's HTML and CSS code has been tested in [W3C Validator](https://validator.w3.org/) and the responsiveness in [Responsinator](https://www.responsinator.com/) and [Am I Responsive](http://ami.responsivedesign.is/).
+The site's HTML and CSS code has been tested in [W3C Validator](https://validator.w3.org/). Responsiveness was tested in [Responsinator](https://www.responsinator.com/) , [Am I Responsive](http://ami.responsivedesign.is/) and [Mobile-Friendly Test](https://search.google.com/test/mobile-friendly).
 
 ### Navbar
-This website has a fixed navigation bar containing five menu items. In a tablet and mobile view the navigation bar collapses into a hamburger menu allowing users to effectively navigate. Bootstrap alongside its Javascript/JQuery plugins was used to achieve this. The Navbar item that it's being hovered will become a bit bigger and darker.
+This website has a fixed navigation bar containing five menu items. In a tablet and mobile view the navigation bar collapses into a hamburger menu on all screen size width below 992px allowing users to effectively navigate. Each navigation menu takes us to the section of the page when clicked. Bootstrap alongside its Javascript/JQuery plugins was used to achieve this. 
+
 
 ### Portfolio 
-The carousel slider automatically goes to the next photo after 10 seconds. It includes buttons on the left and right so you can go in the next or previous photo.Those buttons have a trasparent burgundy color and when you hover over them they become darker. 
+The carousel slider automatically goes to the next photo after 10 seconds. It includes buttons on the left and right so you can go in the next or previous photo. 
+
 
 ### Tutorials
-The tutorial videos have a YouTube icon in middle and when you click it, the video starts playing. You have the option to pause it, adjust the volumn, watch it on full screen and even go to the Youtube channel. You can play all at the same time and at the end of each of them it displays other video suggestions.
+The tutorial videos have a YouTube icon in middle and when you click it, the video starts playing. You have the option to pause it, adjust the volumn, watch it on full screen and even go to the Youtube channel. You can play all them at the same time and at the end of each of them it displays other video suggestions.
 
  
 ### Contact Form
-The required attribute is added to the "Full Name", "Phone Number", and "Email Address" fields so that if they are not filled in, the form will not submit.If you also try to submit the contact form with an invalid email address, there will be an error noting the invalid email address.If a client is interested in booking an appointment all fields need to be filled. However, If all fields are valid the information will be cleared and the page will reload.
+The contact form works well as intended. The required attribute is added to the "Full Name", "Phone Number", and "Email Address" fields so that if they are not filled in, the form will not submit. If you also try to submit the contact form with an invalid email address there will be an error noting the invalid email address and this was achieved using ```type="email"``` attribute. If a client is interested in booking an appointment all fields need to be filled. However, If all fields are valid the information will be cleared and the page will reload. The form is not fully functional at the moment as any message can't be sent through the form.
 
 ### Buttons 
 Once you hover over the "Book Now" button, the color will change from burgundy to a dark pink it will be enlarged and there will be a light shadow around the button which was achieved with [Hover.css](http://ianlunn.github.io/Hover/). Once the button is clicked it will remain the same dark pink color.
 
 
 ### Footer
-You can also able to view my social media profiles via clicking on the icons in the footer.All media links will open in the correct destination once they're clicked. This was tested manually and achieved using 'target="_blank" in each link.
+You can also able to view my social media profiles via clicking on the icons in the footer. All media links will open in the correct destination once they're clicked. This was tested manually and achieved using 'target="_blank" in each link.
 
-
-
-
-
-
-
-
+### Scrollspy
+The Scrollspy effect was tested by scrolling down the page. As soon as you reach on the bottom of a page,the navigation link of the section changes the color to bolder and darker  indicating the section is currently been viewed or active.
 
 
 
@@ -118,9 +108,6 @@ HTML was used in this project to keep up with the latest industry standards.
 
 CSS was used for styling the content on the website.
 
-3. [Bootstrap](https://getbootstrap.com/)
-
-Bootstrap classes were used to build the navigation bar and to make the website responsive.
 
 
 ### Tools 
@@ -139,13 +126,14 @@ Gitpod was used to develop this project.
 1. All the icons used in footer were obtained from [Font Awesome](https://fontawesome.com/).
 2. Hover CSS Animations were taken from [Hover.css](http://ianlunn.github.io/Hover/).
 3. Fonts were taken from [Google Fonts](https://fonts.google.com/).
-4. Bootstrap classes were used to build the navigation bar and to make the website responsive. 
+4.[Bootstrap](https://getbootstrap.com/) classes were used to build the navigation bar and to make the website responsive. 
 
   
 
 ## Deployment 
+This project has been deployed to Github Pages from the master branch. A link to the deployed version of the site can be found [here](https://vasileia-apostolou.github.io/Portfolio/).
 
-This site was developed using Gitpod. All changes to the code were then added and committed to a local repository. The commits were then pushed to my GitHub repository. The project was hosted using GitHub pages directly from the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html. The process of deploying this project on GitHub pages can be seen as bellow; 
+All changes to the code were then added and committed to a local repository. The commits were then pushed to my GitHub repository. The project was hosted using GitHub pages directly from the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html. The process of deploying this project on GitHub pages can be seen as bellow; 
 
 * Go to the settings tab of the repository, and scroll down to GitHub pages.
 * Under GitHub pages, click on "source" and select the master branch.
@@ -167,6 +155,7 @@ All content in the "About" section was written by me.
 * Background pictures were taken from [Unsplash](https://unsplash.com/).
 * Tutorials were take from my [Youtube](https://www.youtube.com/channel/UC-u1GYx9G1DYBpufa3GyPlg?view_as=subscriber) channel.
 * My picture in the "About" section was taken from my [Instagram](https://www.instagram.com/vasiliaxzibit/) account.
+* Portoflio pictures belong to me.
 
  ### Acknowledgements 
   * I received inspiration from [Haley Schafer's](https://www.haleyschafer.com/) project.
