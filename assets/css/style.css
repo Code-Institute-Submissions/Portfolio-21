@@ -31,11 +31,11 @@
 .about-bg-image {
     /*background: url("../images/option6.jpg");*/
     background-color: pink;
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-    min-height: 100vh;
+    min-height: 100vh;*/
   
 }
 
@@ -425,6 +425,17 @@ padding-top: 5%;
          padding-top: 40px;
      }
  }
+
+ @media only screen and (min-width: 1200px) {
+     .about-bg-image {
+         min-height: 900px;
+     }
+     .spacing-style {
+       margin-top: 50px;
+     }
+ }
+
+
 
 
 
