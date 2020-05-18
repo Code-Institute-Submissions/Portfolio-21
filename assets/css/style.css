@@ -28,14 +28,17 @@
     min-height: 100vh;
 }
 
+#about {
+    margin-top: 0;
+}
+
 .about-bg-image {
-    /*background: url("../images/option6.jpg");*/
-    background-color: pink;
-    /*background-repeat: no-repeat;
+    background: url("../images/option6.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     position: relative;
-    min-height: 100vh;*/
+    min-height: 100vh;
   
 }
 
@@ -65,6 +68,10 @@
     background-size: cover;
     background-attachment: fixed;
     max-height: 745px;
+ }
+
+ #tutorials {
+     padding-top: 4%;
  }
 
 
