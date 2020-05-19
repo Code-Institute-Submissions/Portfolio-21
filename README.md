@@ -69,34 +69,21 @@ The manual test was carried out at every stage to ensure user experience standar
 The site was also tested on multiple devices such as MacBook Pro, Huawei Mediapad T5, Iphone 8 Plus and Huawei P30 Pro to ensure it would be correctly displayed across laptop,tablet and mobile devices. 
 I have noticed that there was a gap between the Home and About page on all landscape views. To fix this I removed ```padding-top: 450px``` from Hero Image, replaced it in ```.name-heading```. The same issue was found on Safari and Internet Explorer and got fixed by adding ```margin-top: -8px;```   in    ```.about-bg-image```.
 
-### Validators 
 The site's HTML and CSS code has been tested in [W3C Validator](https://validator.w3.org/). Responsiveness was tested in [Responsinator](https://www.responsinator.com/) , [Am I Responsive](http://ami.responsivedesign.is/) and [Mobile-Friendly Test](https://search.google.com/test/mobile-friendly).
 
-### Navbar
 This website has a fixed navigation bar containing five menu items. In a tablet and mobile view the navigation bar collapses into a hamburger menu on all screen size width below 992px allowing users to effectively navigate. Each navigation menu takes us to the section of the page when clicked. Bootstrap alongside its Javascript/JQuery plugins was used to achieve this. 
-
-
-### Portfolio 
+ 
 The carousel slider automatically goes to the next photo after 10 seconds. It includes buttons on the left and right so you can go in the next or previous photo. 
 
-
-### Tutorials
 The tutorial videos have a YouTube icon in the middle and when you click it, the video starts playing. You have the option to pause it, adjust the volumn, watch it on full screen and even go to the Youtube channel. You can play them all at the same time and at the end it displays other video suggestions.
 
- 
-### Contact Form
 The contact form works well as intended. The required attribute is added to the "Full Name", "Phone Number", and "Email Address" fields so that if they are not filled in, the form will not submit. If you also try to submit the contact form with an invalid email address there will be an error noting the invalid email address and this was achieved using ```type="email"``` attribute. If a client is interested in booking an appointment all fields need to be filled. However, If all fields are valid the information will be cleared and the page will reload. The form is not fully functional at the moment as any message can't be sent through the form.
 
-### Buttons 
 Once you hover over the "Book Now" button, the color will change from burgundy to a dark pink it will be enlarged and there will be a light shadow around the button which was achieved with [Hover.css](http://ianlunn.github.io/Hover/). Once the button is clicked it will remain the same dark pink color.
 
-
-### Footer
 You can also able to view my social media profiles via clicking on the icons in the footer. All media links will open in the correct destination once they're clicked. This was tested manually and achieved using ```target="_blank"``` in each link.
 
-### Scrollspy
 The Scrollspy effect was tested by scrolling down the page. As soon as you reach on the bottom of a page,the navigation link of the section changes the color to bolder and darker  indicating the section is currently been viewed or active.
-
 
 
 ## Technologies Used 
