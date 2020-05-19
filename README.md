@@ -81,7 +81,7 @@ The contact form works well as intended. The required attribute is added to the 
 
 Once you hover over the "Book Now" button, the color will change from burgundy to a dark pink it will be enlarged and there will be a light shadow around the button which was achieved with [Hover.css](http://ianlunn.github.io/Hover/). Once the button is clicked it will remain the same dark pink color.
 
-You can also able to view my social media profiles via clicking on the icons in the footer. All media links will open in the correct destination once they're clicked. This was tested manually and achieved using ```target="_blank"``` in each link.
+You are also able to view my social media profiles via clicking on the icons in the footer. All media links will open in the correct destination once they're clicked. This was tested manually and achieved using ```target="_blank"``` in each link.
 
 The Scrollspy effect was tested by scrolling down the page. As soon as you reach on the bottom of a page,the navigation link of the section changes the color to bolder and darker  indicating the section is currently been viewed or active.
 
