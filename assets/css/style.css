@@ -398,12 +398,12 @@ footer {
 
 
 
- @media only screen and (min-width: 160c.0px) {
+ @media only screen and (min-width: 1550px) {
     .about-bg-image {
         min-height: 100%;
     }
-    .tutorial-bg-image {
-        padding-top: 5%;
+    .responsive-iframe {
+        margin-top: 5%;
     }
 
  }
