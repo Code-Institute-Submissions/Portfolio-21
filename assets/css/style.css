@@ -402,8 +402,8 @@ footer {
     .about-bg-image {
         min-height: 100%;
     }
-    .responsive-iframe {
-        margin-top: 5%;
+    .tutorial-bg-image {
+        min-height: 900px;
     }
 
  }
