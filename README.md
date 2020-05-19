@@ -40,7 +40,7 @@ and lastly, in my footer there are links to my social media.
 
 
 ### Skeleton
-[Wireframes](https://github.com/Vasileia-Apostolou/Portfolio/blob/master/assets/wireframes/Wireframes.pdf)
+[wireframes](https://github.com/Vasileia-Apostolou/Portfolio/blob/master/assets/wireframes/wireframes.pdf)
 
 ### Surface
 
