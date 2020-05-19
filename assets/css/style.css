@@ -398,12 +398,15 @@ footer {
 
 
 
- /*@media only screen and (min-width: 1290px) {
+ @media only screen and (min-width: 160c.0px) {
     .about-bg-image {
         min-height: 100%;
     }
+    .tutorial-bg-image {
+        padding-top: 5%;
+    }
 
- }*/
+ }
 
 
 /*@media screen and (max-width: 992px) and (orientation: landscape) {
