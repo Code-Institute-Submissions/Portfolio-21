@@ -8,11 +8,6 @@
      font-family: 'Montserrat' , sans-serif;
  }
 
-/*header {
-    position: absolute;
-    z-index: 10;
-    width: 100%;
-}*/
 
 .uppercase {
    text-transform: uppercase; 
@@ -48,7 +43,6 @@
     min-height: auto;
     width: 100%;
     background-size: cover;
-    /*background-position: top;*/
     border: 2px solid #ebb0c6;
 }
 
@@ -206,7 +200,6 @@ a.nav-link.active {
 
 .about-me-two  {
    text-align: inherit;
-   /*padding-top: 10%;*/
    padding-top: 50px;
    padding-left: 15px;
    color: #520238;
@@ -220,7 +213,6 @@ a.nav-link.active {
 /* PORTFOLIO SECTION */ 
 
 .carousel-item {
-     /*width: 100%;*/
      margin-left: 20%;
      margin-bottom: 5%;
      padding-right: 40%;  
@@ -401,10 +393,6 @@ padding-top: 15%;
 .about-me-two {
 padding-top: 5%;
 }
-/*.about-heading {
-   padding-top: 5%;
-}*/
-
 }
 
 
@@ -420,6 +408,9 @@ padding-top: 5%;
      }
     .about-heading {
         margin-top: -90px;
+    }
+    .responsive-iframe {
+        width: 80%;
     }
  }
 

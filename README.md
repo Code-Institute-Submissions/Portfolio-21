@@ -78,7 +78,7 @@ The carousel slider automatically goes to the next photo after 10 seconds. It in
 
 
 ### Tutorials
-The tutorial videos have a YouTube icon in middle and when you click it, the video starts playing. You have the option to pause it, adjust the volumn, watch it on full screen and even go to the Youtube channel. You can play all them at the same time and at the end of each of them it displays other video suggestions.
+The tutorial videos have a YouTube icon in the middle and when you click it, the video starts playing. You have the option to pause it, adjust the volumn, watch it on full screen and even go to the Youtube channel. You can play them all at the same time and at the end it displays other video suggestions.
 
  
 ### Contact Form
@@ -89,7 +89,7 @@ Once you hover over the "Book Now" button, the color will change from burgundy t
 
 
 ### Footer
-You can also able to view my social media profiles via clicking on the icons in the footer. All media links will open in the correct destination once they're clicked. This was tested manually and achieved using 'target="_blank" in each link.
+You can also able to view my social media profiles via clicking on the icons in the footer. All media links will open in the correct destination once they're clicked. This was tested manually and achieved using ```target="_blank"``` in each link.
 
 ### Scrollspy
 The Scrollspy effect was tested by scrolling down the page. As soon as you reach on the bottom of a page,the navigation link of the section changes the color to bolder and darker  indicating the section is currently been viewed or active.
@@ -126,7 +126,7 @@ Gitpod was used to develop this project.
 1. All the icons used in footer were obtained from [Font Awesome](https://fontawesome.com/).
 2. Hover CSS Animations were taken from [Hover.css](http://ianlunn.github.io/Hover/).
 3. Fonts were taken from [Google Fonts](https://fonts.google.com/).
-4.[Bootstrap](https://getbootstrap.com/) classes were used to build the navigation bar and to make the website responsive. 
+4. [Bootstrap](https://getbootstrap.com/) classes were used to build the navigation bar and to make the website responsive. 
 
   
 
