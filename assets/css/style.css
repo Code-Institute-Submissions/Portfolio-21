@@ -304,6 +304,9 @@ footer {
     .job-title-heading {
       padding-left: 15px;
     }
+    .name-heading {
+       padding-top: 120%;
+    }
 }
 
 
@@ -381,6 +384,9 @@ footer {
     .responsive-iframe {
         width: 80%;
     }
+    .name-heading {
+        padding-top: 100%;
+    }
  }
 
 
@@ -393,6 +399,9 @@ footer {
     }
     .about-me-one {
         padding-top: 40px;
+    }
+    .name-heading {
+        padding-top: 100%;
     }
  }
 
