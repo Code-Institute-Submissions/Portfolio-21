@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Akronim&family=Buda:wght@300&family=Montserrat:wght@300&family=Thasadith:wght@700&display=swap');
 
- body {
-     font-family: 'Montserrat' , sans-serif;
- }
 
+body {
+    font-family: 'Montserrat' , sans-serif;
+}
 
 .uppercase {
    text-transform: uppercase; 
@@ -11,7 +11,7 @@
 
 
 
-/* IMAGES */
+/* -------- IMAGES -------- */
 
 .hero-image {
     background: url("../images/option37.jpg");
@@ -23,7 +23,6 @@
     min-height: 100vh;
 }
 
-
 .about-bg-image {
     background: url("../images/option6.jpg");
     background-repeat: no-repeat;
@@ -32,7 +31,6 @@
     position: relative;
     min-height: 100vh;
     margin-top: -8px;
-  
 }
 
 .my-image  {
@@ -46,31 +44,26 @@
     background-image: linear-gradient(#fff, #fcdee8, #fff);
 }
  
- .tutorial-bg-image {
+.tutorial-bg-image {
     background: url("../images/option41.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     min-height: 100vh;
- }
+}
 
- .contact-bg-image {
+.contact-bg-image {
     background: url("../images/option36.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     max-height: 745px;
- }
+}
 
 
 
 
-
-
-
-
-
-/* HEADINGS */
+/* -------- HEADINGS -------- */
 
 .name-heading {
     font-family: 'Akronim' , sans-serif;
@@ -94,7 +87,6 @@
 .about-heading  {
     text-align: center;
     padding-top: 140px;
-    margin: 100;
     font-size: 40px;
     color:#7d0155;
     text-shadow: 2px 1px 3px #fff;
@@ -121,15 +113,13 @@
 
 
 
-
-
-/* NAV BAR */
+/* -------- NAV BAR -------- */
 
 .navbar {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  text-shadow: 1px 0px 3px #fff;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   text-shadow: 1px 0px 3px #fff;
 }
 
 .navbar .nav-item {
@@ -154,7 +144,7 @@ a.nav-link.active {
 
 
 
-/* BUTTONS */
+/* -------- BUTTONS -------- */
 
 .carousel-control-prev, .carousel-control-next {
    width: 20px;
@@ -183,11 +173,10 @@ a.nav-link.active {
 
 
 
-/* ABOUT SECTION */
+/* ------- ABOUT SECTION ------- */
 
 .about-me-one  {
    text-align: inherit;
-   /*padding-top: 40%;*/
    padding-top: 80px;
    padding-left: 15px;
    color: #520238;
@@ -205,21 +194,18 @@ a.nav-link.active {
 
 
 
-
-/* PORTFOLIO SECTION */ 
+/* ------- PORTFOLIO SECTION ------- */ 
 
 .carousel-item {
-     margin-left: 20%;
-     margin-bottom: 5%;
-     padding-right: 40%;  
- }
+    margin-left: 20%;
+    margin-bottom: 5%;
+    padding-right: 40%;  
+}
 
 
 
 
-
-
-/* TUTORIAL SECTION */
+/* ------- TUTORIAL SECTION ------- */
 
 .tutorial-headings {
    text-align: center;
@@ -229,8 +215,7 @@ a.nav-link.active {
    padding-top: 2px;
    padding-right: 8%;
    margin-left: 7%;
-   text-shadow: 0px 1px 1px #fff;
-   
+   text-shadow: 0px 1px 1px #fff;  
 }
 
 .responsive-iframe {
@@ -243,9 +228,7 @@ a.nav-link.active {
 
 
 
-
-
-/* CONTACT PAGE */
+/* ------- CONTACT PAGE ------- */
 
  .fields {
    width: 100%;
@@ -277,22 +260,19 @@ a.nav-link.active {
 
 
 
-
-
-
-/* FOOTER */
+/* ------- FOOTER ------- */
 
 footer {
    text-align: center;
    margin-top: 10px;
    padding-top: 2px;
    height: 10px;
-  
 }
 
 .inline-block {
      display: inline-block;
  }
+
 
 .social-media li a i {
     width: 45px;
@@ -316,92 +296,85 @@ footer {
 
 
 
-
-
-
-
-
-
-
-/* MEDIA QUERIES */
+/* ------- MEDIA QUERIES -------*/
 
 
 
  @media only screen and (max-width: 500px) {
-.job-title-heading {
-padding-left: 15px;
-}
+    .job-title-heading {
+      padding-left: 15px;
+    }
 }
 
 
 @media only screen and (max-width: 767px) {
-.contact-heading {
-    margin-top: 20px;
-    margin-left: 5%;
-    letter-spacing: 2px;
-    color: #520238;
- }
- .contact-info {
-margin-right: 20px;
-padding-top: 10px;
- }
- .spacing-style {
- margin-left: 10%;
-}
-.my-image {
-margin-top: 20%;
- }
- .about-me-one {
-padding-top: 10px;
-font-size: 19px;
-}
-.about-me-two {
-padding-top: 40px;
-padding-bottom: 5%;
-font-size: 19px;
-}
-.about-heading {
-padding-top: 10%;
-padding-bottom: 6%;
-padding-left: 6%;
-}
-.hero-image {
-    background-attachment: scroll;
-}
+    .contact-heading {
+       margin-top: 20px;
+       margin-left: 5%;
+       letter-spacing: 2px;
+       color: #520238;
+    }
+    .contact-info {
+       margin-right: 20px;
+       padding-top: 10px;
+    }
+    .spacing-style {
+       margin-left: 10%;
+    }  
+   .my-image {
+       margin-top: 20%;
+    }
+    .about-me-one {
+       padding-top: 10px;
+       font-size: 19px;
+    }
+    .about-me-two {
+       padding-top: 40px;
+       padding-bottom: 5%;
+       font-size: 19px;
+    }
+    .about-heading {
+       padding-top: 10%;
+       padding-bottom: 6%;
+       padding-left: 6%;
+    }
+   .hero-image {
+      background-attachment: scroll;
+    }
 }
 
 
 
 @media only screen and (min-width: 768px) {
-.spacing-style {
-    margin-left: 10%;
-} 
-.my-image {
-    margin-top: 15%;
-    margin-bottom: 20%;
- }
-.about-bg-image {
-    min-height: 500px;
-}
-.about-me-one {
-padding-top: 15%;
-}
-.about-me-two {
-padding-top: 5%;
-}
+    .spacing-style {
+       margin-left: 10%;
+    } 
+    .my-image {
+       margin-top: 15%;
+       margin-bottom: 20%;
+    }
+   .about-bg-image {
+       min-height: 500px;
+    }
+    .about-me-one {
+       padding-top: 15%;
+    }
+    .about-me-two {
+       padding-top: 5%;
+    }
 }
 
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-     .about-bg-image {
-         min-height: 800px;
-     }
-     .my-image {
-         margin-top: 60%;
-     }
-     .about-me-one {
-         padding-top: 40px;
-     }
+    .about-bg-image {
+        min-height: 800px;
+    }
+    .my-image {
+        margin-top: 60%;
+    }
+    .about-me-one {
+        padding-top: 40px;
+    }
     .about-heading {
         margin-top: -90px;
     }
@@ -412,53 +385,38 @@ padding-top: 5%;
 
 
  @media only screen and (min-width: 992px) and (max-width: 1200px) {
-     .about-bg-image {
-         min-height: 850px;
-     }
-     .my-image {
-         margin-top: 30%;
-     }
-     .about-me-one {
-         padding-top: 40px;
-     }
+    .about-bg-image {
+        min-height: 850px;
+    }
+    .my-image {
+        margin-top: 30%;
+    }
+    .about-me-one {
+        padding-top: 40px;
+    }
  }
-
 
 
 
  @media only screen and (min-width: 1200px) {
-     .about-bg-image {
-         min-height: 100%;
-     }
-     .responsive-iframe {
-         margin-top: 15%;
-     }
+    .about-bg-image {
+        min-height: 100%;
+    }
+    .tutorial-bg-image {
+        padding-top: 10%;
+    }
  }
 
 
-
-
-
-
-
-
-
-
-
-/* LANDSCAPE */
-
-
-
-@media screen and (max-device-width: 992px) and (orientation: landscape) {
-     .name-heading {
-         padding-top: 25%;
-     }
-     .portfolio-heading {
-         padding-top: 1%;
-         padding-bottom: 1%;
-     }
-    
- }
+/*@media screen and (max-width: 992px) and (orientation: landscape) {
+    .name-heading {
+        padding-top: 25%;
+    }
+    .portfolio-heading {
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }   
+}*/
 
  
 
