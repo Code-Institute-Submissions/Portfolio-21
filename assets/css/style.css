@@ -397,12 +397,24 @@ footer {
  }
 
 
- /*@media only screen and (min-width: 1390px) {
+
+ /*@media only screen and (min-width: 1290px) {
     .about-bg-image {
         min-height: 100%;
     }
-}*/
 
+ }*/
+
+
+/*@media screen and (max-width: 992px) and (orientation: landscape) {
+    .name-heading {
+        padding-top: 25%;
+    }
+    .portfolio-heading {
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }   
+}*/
 
  
 
