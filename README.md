@@ -4,6 +4,9 @@ Milestone Project : User-Centric Frontend Development - Code Institute
 I am a Full Stack Web Developer and a Makeup Artist and this is my portfolio website, created to attract clients. My portfolio includes a little bit about myself and my experience, it highlights my work and achievements by including before and after pictures of clients and makeup tutorials so that anyone who visits my website can learn something, as well as a form where clients can book their next appointment! 
 
 
+<img width="1046" alt="Screenshot 2020-05-19 at 18 10 26" src="https://user-images.githubusercontent.com/59608134/82351006-4fed9500-99fc-11ea-8613-668f0c705e59.png">
+
+
 ## UX 
 
 I've created this website for those who are looking for a makeup artist and for those who would like to learn how to create fun and colorful makeup looks. Overall, the goal of this website is to show my passion, provide service, and share a few of my tips. 
