@@ -10,7 +10,7 @@ I've created this website for those who are looking for a makeup artist and for
 
 * As a client, I should:   
 
-    * Get to know who Vasileia is.
+    * Get to know who Vasileia Apostolou is.
     * Get to know what her achievements and work experience is.
     * Look at her makeup skills on her clients.
     * Learn a few tips on how to recreate her looks from her tutorials.
